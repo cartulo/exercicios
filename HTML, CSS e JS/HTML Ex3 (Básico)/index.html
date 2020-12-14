@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Ex 03 – Transformar os campos “elementos“ da página criada no exercício 01, em  tipos de campos apropriados para o domínio de informação neles contidos.  Ex.: o campo “avatars” ao invés de utilizar um “input text” poderia utilizar um  “select” visto que ele pode conter uma lista multivalorada de itens para seleção, o  famoso “combobox”. -->
+    <meta charset="utf-8">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <form name="Form" onsubmit="return validaForm()">
+        <!-- Colocar action="/página-aqui.linguagem" -->
+        Nome:
+        <input type="text" id="nome" value=""><br><br>
+
+        Pontos:
+        <select id="nota">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select> <br> <br>
+
+        Nota:
+        <select id="nota">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select> <br> <br>
+
+        Universidade:
+        <select id="univ">
+            <option value="UNIP">UNIP</option>
+            <option value="UNISO">UNISO</option>
+            <option value="UNIPAR">UNIPAR</option>
+        </select> <br> <br>
+
+        Empresas:
+        <input type="text" id="empresas" value="" /> <br> <br>
+
+        Avatars:
+        <select>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Não binário">Nao binario</option>
+        </select> <br> <br>
+
+        Horarios:
+        <input type="time" id="horas" value="" /> <br> <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
