@@ -4,7 +4,17 @@
 <head>
     <!-- Ex 03 – Transformar os campos “elementos“ da página criada no exercício 01, em  tipos de campos apropriados para o domínio de informação neles contidos.  Ex.: o campo “avatars” ao invés de utilizar um “input text” poderia utilizar um  “select” visto que ele pode conter uma lista multivalorada de itens para seleção, o  famoso “combobox”. -->
     <meta charset="utf-8">
-    <script type="text/javascript" src="main.js"></script>
+    <script>
+        function validaForm() {
+            nome = document.getElementById("nome").value;
+            empr = document.getElementById("empresas").value;
+            hora = document.getElementById("horas").value;
+            if (nome == "" || empr == "" || hora == "") {
+                alert("Todos campos devem ser preenchidos!");
+                return false;
+            }
+        }
+    </script>
 </head>
 
 <body>
