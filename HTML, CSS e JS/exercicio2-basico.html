@@ -3,7 +3,21 @@
 <head>
     <!-- Ex 02 – Crie uma função Javascript que permita validar o formulário criado no  exercício 01 quanto a obrigatoriedade dos campos para submit do form no botão  submit. -->
     <meta charset="utf-8">
-    <script type="text/javascript" src="main.js"></script>
+    <script>
+        function validaForm() {
+            nome = document.getElementById("nome").value;
+            pontos = document.getElementById("pontos").value;
+            nota = document.getElementById("nota").value;
+            univ = document.getElementById("universidade").value;
+            empr = document.getElementById("empresas").value;
+            avat = document.getElementById("avatars").value;
+            hora = document.getElementById("horas").value;
+            if (nome == "" || pontos == "" || nota == "" || univ == "" || empr == "" || avat == "" || hora == "") {
+                alert("Todos campos devem ser preenchidos!");
+                return false;
+            }
+        }
+    </script>
 </head>
 <body>
     <form name="Form" onsubmit="return validaForm()">
