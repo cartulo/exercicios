@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<!-- 04 – Utilizando o objeto Javascript “XMLHttpRequest” realizar o POST do recurso  “usuario“ para autenticação na API REST. 
+O objeto JSON “JavaScript Object  Notation” apresentado abaixo,  para o endereço  
+    http://52.91.139.190/fsapi/users/login
+        { 
+            "email": "fschorles@teste.com", 
+            "password": "123456" 
+        } 
+Dica: para submeter dados json a um servidor web devemos utilizar o content type = application/json -->
+    <meta charset="utf-8">
+    <script>
+        function envio() {
+            var a = document.forms["Email/Password"]["email"].value;
+            var b = document.forms["Email/Password"]["password"].value;
+            var formulario = new XMLHttpRequest();
+            formulario.onload = envio;
+            formulario.open("POST", "http://52.91.139.190/fsapi/users/login%22");
+            formulario.send(JSON.stringify({
+                "email": a.value,
+                "password": b.value
+            }))
+        }
+    </script>
+</head>
+
+<body>
+    <form method="POST" name="Email/Password">
+        Email:
+        <input type="text" value="" name="email" /> <br> <br>
+        Password:
+        <input type="text" value="" name="password" /> <br> <br>
+        <input type="submit" value="Enviar Formulario">
+    </form>
+</body>
+
+</html>
