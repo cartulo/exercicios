@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- 05 – Após realizar o login considero um diferencial realizar a criação de um  usuário. 
+        A API para esse serviço está protegida por mecanismo para autenticação  baseada em token. -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <p id="mytoken"></p>
+    <form name="Form">
+        login:
+        <input type="text" value="fschorles@gmail.com" name="login" /> <br><br>
+        name:
+        <input type="text" value="Felipe Schorles" name="name" /> <br><br>
+        email:
+        <input type="text" value="fschorles@gmail.com" name="email" /> <br><br>
+        password:
+        <input type="text" value="123456" name="password" /> <br><br>
+        confirma_password:
+        <input type="text" value="123456" name="confirma_password" /> <br><br>
+        idEmpresa:
+        <input type="text" value="13" name="idEmpresa" /> <br><br>
+        Status:
+        <input type="text" value="Apovado" name="Status" /> <br><br>
+        role:
+        <input type="text" value="Client" name="role" /> <br><br>
+        regId:
+        <input type="text" value="" name="regId" /> <br><br>
+        status:
+        <input type="text" value="Aprovado" name="status" /> <br><br>
+        <button onclick="envio(event)">Enviar Formulario</button>
+    </form>
+    <script>
+        const t = localStorage.getItem("token");
+        if (t) {
+            document.getElementById("mytoken").innerHTML = t;
+        }
+
+        const envio = (e) => {
+            e.preventDefault();
+
+            var login = document.forms["Form"]["login"];
+            var name = document.forms["Form"]["name"];
+            var email = document.forms["Form"]["email"];
+            var password = document.forms["Form"]["password"];
+            var confirma_password = document.forms["Form"]["confirma_password"];
+            var idEmpresa = document.forms["Form"]["idEmpresa"];
+            var Status = document.forms["Form"]["Status"];
+            var role = document.forms["Form"]["role"];
+            var regId = document.forms["Form"]["regId"];
+            var status = document.forms["Form"]["status"];
+
+            var request = new XMLHttpRequest();
+
+            request.onreadystatechange = () => {
+                if (request.readyState == 4 && request.status == 200) {
+                    const obj = JSON.parse(request.responseText);
+                    if (obj.token) {
+                        console.log(obj.token);
+                        localStorage.setItem("token", obj.token);
+                        document.getElementById("mytoken").innerHTML = obj.token;
+                    }
+                }
+            };
+
+            request.open("POST", "http://52.91.139.190/fsapi/users/auth/register-jwt");
+
+            request.setRequestHeader("Content-type", "application/json");
+            /* request.setRequestHeader("Authorization", ""); */
+
+            const body = JSON.stringify({
+                "login": login.value,
+                "name": name.value,
+                "email": email.value,
+                "password": password.value,
+                "confirma_password": confirma_password.value,
+                "idEmpresa": idEmpresa.value,
+                "Status": Status.value,
+                "role": role.value,
+                "regId": regId.value,
+                "status": status.value
+            })
+
+            request.send(body);
+            console.log("body:", body);
+        }
+    </script>
+</body>
+
+</html>
