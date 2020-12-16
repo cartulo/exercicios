@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<!-- 04 – Utilizando o objeto Javascript “XMLHttpRequest” realizar o POST do recurso  “usuario“ para autenticação na API REST. 
-O objeto JSON “JavaScript Object  Notation” apresentado abaixo,  para o endereço  
-    http://52.91.139.190/fsapi/users/login
-        { 
-            "email": "fschorles@teste.com", 
-            "password": "123456" 
-        } 
-Dica: para submeter dados json a um servidor web devemos utilizar o content type = application/json -->
+    <!-- 04 – Utilizando o objeto Javascript “XMLHttpRequest” realizar o POST do recurso  “usuario“ para autenticação na API REST. O objeto JSON “JavaScript Object  Notation” -->
     <meta charset="utf-8">
     <script>
-        function envio() {
-            var a = document.forms["Email/Password"]["email"].value;
-            var b = document.forms["Email/Password"]["password"].value;
-            var formulario = new XMLHttpRequest();
-            formulario.onload = envio;
-            formulario.open("POST", "http://52.91.139.190/fsapi/users/login%22");
-            formulario.send(JSON.stringify({
+        const envio = (e) => {
+
+            e.preventDefault();
+            var a = document.forms["Email/Password"]["email"];
+            var b = document.forms["Email/Password"]["password"];
+            var request = new XMLHttpRequest();
+            request.open("POST", "http://52.91.139.190/fsapi/users/login");
+
+            request.setRequestHeader("Content-type", "application/json");
+            /* request.setRequestHeader("Authorization",PASSAR O TOKEN) */
+
+            request.onreadystatechange = () => {
+                if (request.readyState == 4 && request.status == 200) {
+                }
+            };
+
+            const body = JSON.stringify({
                 "email": a.value,
                 "password": b.value
-            }))
+            })
+
+            request.send(body);
+            console.log("body:", body);
         }
     </script>
 </head>
+
 <body>
     <form method="POST" name="Email/Password">
         Email:
-        <input type="text" value="" name="email" /> <br> <br>
+        <input type="text" value="fschorles@teste.com" name="email" /> <br> <br>
         Password:
-        <input type="text" value="" name="password" /> <br> <br>
-        <input type="submit" value="Enviar Formulario">
+        <input type="text" value="123456" name="password" /> <br> <br>
+        <button onclick="envio(event)">Enviar Formulario</button>
     </form>
 </body>
+
 </html>
