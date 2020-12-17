@@ -2,55 +2,52 @@
 <html lang="pt-br">
 
 <head>
-    <!-- 05 – Após realizar o login considero um diferencial realizar a criação de um  usuário. 
-        A API para esse serviço está protegida por mecanismo para autenticação  baseada em token. -->
-    <meta charset="utf-8">
+    <!-- 05 – Após realizar o login considero um diferencial realizar a criação de um  usuário. A API para esse serviço está protegida por mecanismo para autenticação  baseada em token. 
+URL: 
+http://52.91.139.190/fsapi/users/auth/register-jwt
+Método: 
+POST 
+JSON Exemplo 
+{  
+    "login": "fschorles@gmail.com", 
+    "name": "Felipe Schorles", 
+    "email":"fschorles@gmail.com", 
+    "password": "123456", 
+    "confirma_password": "123456", 
+    "idEmpresa": "13", 
+  "Status": "Aprovado", 
+   "role" : "Client", 
+   "regId": "", 
+    "status" : "Aprovado" 
+} 
+Header: Token para autenticação no serviço. Pegar do retorno do login  realizado no desafio anterior 
+Authorization = Bearer  
+eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjVjNDYxMmM4ZGY3NWVkZmY0ZmJlNDlmZCJ9.gw8v8xd2XqhmBjG 83hw2JTncXsLg9n3bzo9sob_I5w4 -->
+    
 </head>
 
 <body>
-    <p id="mytoken"></p>
     <form name="Form">
-        login:
-        <input type="text" value="fschorles@gmail.com" name="login" /> <br><br>
         name:
         <input type="text" value="Felipe Schorles" name="name" /> <br><br>
         email:
         <input type="text" value="fschorles@gmail.com" name="email" /> <br><br>
         password:
         <input type="text" value="123456" name="password" /> <br><br>
-        confirma_password:
-        <input type="text" value="123456" name="confirma_password" /> <br><br>
-        idEmpresa:
-        <input type="text" value="13" name="idEmpresa" /> <br><br>
-        Status:
-        <input type="text" value="Apovado" name="Status" /> <br><br>
-        role:
-        <input type="text" value="Client" name="role" /> <br><br>
-        regId:
-        <input type="text" value="" name="regId" /> <br><br>
-        status:
-        <input type="text" value="Aprovado" name="status" /> <br><br>
+        Token:
+        <input type="text" value="eyJhbGciOiJIUzI1NiJ9.e30.dUGAzN9fAHIj40zxCKoSE6ADu5aNR4dX0D4qhZ5uMPE" id="mytoken" />
+        <br><br>
         <button onclick="envio(event)">Enviar Formulario</button>
+        <button><a href="index.html">Login</a></button>
     </form>
     <script>
-        const t = localStorage.getItem("token");
-        if (t) {
-            document.getElementById("mytoken").innerHTML = t;
-        }
-
         const envio = (e) => {
             e.preventDefault();
 
-            var login = document.forms["Form"]["login"];
             var name = document.forms["Form"]["name"];
             var email = document.forms["Form"]["email"];
             var password = document.forms["Form"]["password"];
-            var confirma_password = document.forms["Form"]["confirma_password"];
-            var idEmpresa = document.forms["Form"]["idEmpresa"];
-            var Status = document.forms["Form"]["Status"];
-            var role = document.forms["Form"]["role"];
-            var regId = document.forms["Form"]["regId"];
-            var status = document.forms["Form"]["status"];
+            var mytoken = document.forms["Form"]["mytoken"];
 
             var request = new XMLHttpRequest();
 
@@ -68,23 +65,16 @@
             request.open("POST", "http://52.91.139.190/fsapi/users/auth/register-jwt");
 
             request.setRequestHeader("Content-type", "application/json");
-            /* request.setRequestHeader("Authorization", ""); */
+            request.setRequestHeader("Authorization", "application/json");
+            /* request.setRequestHeader("método GET ou POST", "url"); */
 
-            const body = JSON.stringify({
-                "login": login.value,
+            request.send = JSON.stringify({
                 "name": name.value,
                 "email": email.value,
                 "password": password.value,
-                "confirma_password": confirma_password.value,
-                "idEmpresa": idEmpresa.value,
-                "Status": Status.value,
-                "role": role.value,
-                "regId": regId.value,
-                "status": status.value
+                "token": mytoken.value
             })
-
-            request.send(body);
-            console.log("body:", body);
+            console.log(request.send);
         }
     </script>
 </body>
