@@ -3,6 +3,8 @@ Caso não tenha visto sobre esses exercícios você pode conferir clicando [AQUI
 
 ----------------------------------------------------------------------------------------------------
 
-**[Exercício 01](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio1.html)** - Crie dois botões no HTML chamados: 'Verde', ,'Vermelho'. ao clicar neles, o style="background-color: {COR-SELECIONADA}" vai ser alterado dinamicamente Alterar-Style de uma div
+**[Exercício 01](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio1.html)** - Crie dois botões no HTML chamados: 'Verde' e 'Vermelho'. \
+Ao clicar neles o fundo da tela deve ser respectivo à cor do botão clicado. \
+Ex: Clicar no botão 'Verde' deve deixar o fundo da cor verde.
 
 ----------------------------------------------------------------------------------------------------
