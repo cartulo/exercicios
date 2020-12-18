@@ -1,54 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!-- 04 – Utilizando o objeto Javascript “XMLHttpRequest” realizar o POST do recurso  “usuario“ para autenticação na API REST. O objeto JSON “JavaScript Object  Notation” apresentado abaixo,  para o endereço  
-http://52.91.139.190/fsapi/users/login
-    { 
-        "email": "fschorles@teste.com", 
-        "password": "123456" 
-    } 
-Dica: para submeter dados json a um servidor web devemos utilizar o content type = application/json  -->
+<!-- 04 – Utilizando o objeto Javascript “XMLHttpRequest” realizar o POST do recurso  “usuario“ para autenticação na API REST. O objeto JSON “JavaScript Object  Notation” -->
 
 <body>
-    <form name="Email/Password">
+    <form name="Form">
         Email:
         <input type="text" value="fschorles@teste.com" name="email" /> <br><br>
         Password:
         <input type="text" value="123456" name="password" /> <br><br>
         <button onclick="envio(event)">Enviar Formulario</button>
         <button><a href="register.html">Registro</a></button> <br><br>
-        Token:
-        <p id="mytoken"></p>
     </form>
     <script>
         const envio = (e) => {
 
             e.preventDefault();
-            var a = document.forms["Email/Password"]["email"];
-            var b = document.forms["Email/Password"]["password"];
+            var a = document.forms["Form"]["email"];
+            var b = document.forms["Form"]["password"];
+            var mytoken = localStorage.getItem("token");
             var request = new XMLHttpRequest();
+
             request.open("POST", "http://52.91.139.190/fsapi/users/login");
 
             request.setRequestHeader("Content-type", "application/json");
-            /* request.setRequestHeader("Authorization", "eyJhbGciOiJIUzI1NiJ9.e30.dUGAzN9fAHIj40zxCKoSE6ADu5aNR4dX0D4qhZ5uMPE"); */
+            request.setRequestHeader("Authorization", "mytoken");
 
             request.onreadystatechange = () => {
                 if (request.readyState == 4 && request.status == 200) {
                 }
             };
 
-            const t = localStorage.getItem("token");
-            if (t) {
-                document.getElementById("mytoken").innerHTML = t;
-            }
-
-            request.send = JSON.stringify({
+            const body = JSON.stringify({
                 "email": a.value,
-                "password": b.value
+                "password": b.value,
+                "token": mytoken
             })
 
-            console.log(request.send);
+            request.send(body);
+            console.log("body:", body);
         }
     </script>
 </body>
-    
+
 </html>
