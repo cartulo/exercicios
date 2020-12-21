@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    Número 1:
+    <input type="text" value="" id="n1"></input> <br><br>
+    Número 2:
+    <input type="text" value="" id="n2"></input> <br><br>
+    <button onclick="Somar()">Somar</button> <br><br>
+    Resultado:
+    <p class="resultado"></p>
+    <script>
+        function Somar() {
+            var num1 = Number(document.getElementById("n1").value) || 0;
+            var num2 = Number(document.getElementById("n2").value) || 0;
+            document.querySelector(".resultado").innerHTML = num1 + num2;
+        }
+    </script>
+</body>
+
+</html>
