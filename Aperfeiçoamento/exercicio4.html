@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    Informe o ano em que nasceu: <br><br>
+    <input type="text" value="" id="n1"></input> <br><br>
+    <button onclick="Idade()">Calcular</button> <br>
+    <p class="resultado"></p>
+    <script>
+        function Idade() {
+            var ano = Number(document.getElementById("n1").value);
+            var idade = 2020 - ano;
+            if (idade >= 18) {
+                document.querySelector(".resultado").innerHTML = "Você é maior de idade";
+            }
+            if (idade < 18) {
+                document.querySelector(".resultado").innerHTML = "Você é menor de idade";
+            }
+        }
+    </script>
+</body>
+
+</html>
