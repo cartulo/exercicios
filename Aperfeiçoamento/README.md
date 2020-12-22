@@ -14,3 +14,19 @@ Ex: Clicar no botão 'Verde' deve deixar o fundo da cor verde.
 ----------------------------------------------------------------------------------------------------
 
 **[Exercício 03](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio3.html)** -  Seguindo o que foi feito no exercicio 01, crie uma função que recebe 2 parâmetros e retorna a soma deles, porém caso seja passado um parâmetro vazio ela retorne zero.
+
+----------------------------------------------------------------------------------------------------
+
+
+**[Exercício 04](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio4.html)** - Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
+
+----------------------------------------------------------------------------------------------------
+
+**[Exercício 05](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio5.html)** - Crie uma função que informa se tem os caracteres 'dota' no parâmetro informado, exiba um alert em tela caso seja verdadeiro. \
+\
+Ex: 'lol é melhor que dota' (verdadeiro) \
+Ex: 'lol é melhor que Dark Souls' (falso)
+
+----------------------------------------------------------------------------------------------------
+
+**[Exercício 06](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio6.html)** - Peça ao usuário para digitar 5 números em uma caixa de texto. Calcule a média das destes números digitadas pelo usuário e exiba em uma div.
