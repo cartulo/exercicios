@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    Informe cinco números: <br><br>
+    <input type="text" value="1 2 3 4 5" id="n1"></input> <br><br>
+    <button onclick="media()">Calcular</button> <br><br>
+    <div class="resultado"></div>
+    <script>
+        function media() {
+            let array = document.getElementById("n1").value.split(" ");
+
+            let arrayInt = array.map(function (x) {
+                return parseInt(x, 10);
+            });
+
+            let somaArray = (arrayInt.reduce((soma, array) => soma + array));
+            document.querySelector(".resultado").innerHTML = "Média simples dos números: " + somaArray / arrayInt.length;
+        }
+    </script>
+</body>
+
+</html>
