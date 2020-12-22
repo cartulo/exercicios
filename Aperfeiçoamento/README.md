@@ -24,8 +24,8 @@ Ex: Clicar no botão 'Verde' deve deixar o fundo da cor verde.
 
 **[Exercício 05](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio5.html)** - Crie uma função que informa se tem os caracteres 'dota' no parâmetro informado, exiba um alert em tela caso seja verdadeiro. \
 \
-Ex: 'lol é melhor que dota' (verdadeiro) \
-Ex: 'lol é melhor que Dark Souls' (falso)
+Ex: 'lol é melhor que dota' (Afirmação que seria verdadeira) \
+Ex: 'lol é melhor que Dark Souls' (Algo que é obviamente falso)
 
 ----------------------------------------------------------------------------------------------------
 
