@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    Informe a frase: <br><br>
+    <input type="text" value="LOL é melhor que Dota" id="n1"></input> <br><br>
+    <button onclick="Verifica()">Verificar</button> <br>
+    <p class="resultado"></p>
+    <script>
+        function Verifica() {
+            var dota = document.getElementById("n1").value.toLowerCase().indexOf("dota");
+            if (dota > -1) {
+                alert("Verdadeiro!");
+            }
+        }
+    </script>
+</body>
+
+</html>
