@@ -3,12 +3,12 @@
 
 <body>
     <button onclick="letras()">Surja!</button> <br>
-    <ul id="lista"></ul>
+    <ul id="nomes"></ul>
     <script>
         function letras() {
             let deuses = ['Odin', 'Loki', 'Thor'];
             deuses.sort();
-            let lista = document.getElementById('lista');
+            let lista = document.getElementById('nomes');
             let format = deuses.map(x => {
                 return `<li>${x}</li>`;
             })
