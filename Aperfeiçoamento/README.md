@@ -47,3 +47,15 @@ Loki \
 Thor
 
 ----------------------------------------------------------------------------------------------------
+
+**[Exercício 09](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio9.html)** -  Seguindo do exercício 02, adicione o .sort para filtrar o array exibido no HTML alfabeticamente.
+
+----------------------------------------------------------------------------------------------------
+
+**[Exercício 10](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio10.html)** - Exiba a quantidade de letras que possuem o texto inserido ao clicar no botão.
+
+Exemplos de entrada e saída: \
+'Caio' // 4 \
+'Felipe' // 6 \
+'Roberto' // 7 \
+'Tiago' // 5
