@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <button onclick="letras()">Surja!</button> <br>
+    <ul id="lista"></ul>
+    <script>
+        function letras() {
+            let nomes = ["Caio", "Felipe", "Roberto", "Tiago"];
+            let lista = document.getElementById('lista');
+            for (var i = 0; i < nomes.length; i++) {
+                let item = document.createElement('li');
+                item.appendChild(document.createTextNode(nomes[i] + nomes[i].length));
+                lista.appendChild(item);
+            }
+        }
+    </script>
+</body>
+
+</html>
