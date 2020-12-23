@@ -2,12 +2,12 @@
 <html>
 
 <body>
-    <button onclick="escreva()">Surja!</button> <br>
-    <ul id="lista"></ul>
+    <button onclick="letras()">Surja!</button> <br>
+    <ul id="nomes"></ul>
     <script>
-        function escreva() {
+        function letras() {
             let deuses = ['Odin', 'Loki', 'Thor'];
-            let lista = document.getElementById('lista');
+            let lista = document.getElementById('nomes');
             let format = deuses.map(x => {
                 return `<li>${x}</li>`;
             })
