@@ -3,11 +3,11 @@
 
 <body>
     <button onclick="letras()">Surja!</button> <br>
-    <ul id="lista"></ul>
+    <ul id="nomes"></ul>
     <script>
         function letras() {
             let nomes = ["Caio", "Felipe", "Roberto", "Tiago"];
-            let lista = document.getElementById('lista');
+            let lista = document.getElementById('nomes');
             let format = nomes.map(x => {
                 return `<li>${x} ${x.length}</li>`;
             })
