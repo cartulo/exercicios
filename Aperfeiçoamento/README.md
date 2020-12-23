@@ -38,7 +38,7 @@ E Exiba a quantidade/comprimento que ele tem com a função .length
 
 ----------------------------------------------------------------------------------------------------
 
-**[Exercício 08](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio8.html)** - Com o que foi feito no exercício anterior, exiba todos os nomes, dentro do html: <ul id="nomes"></ul> 
+**[Exercício 08](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio8.html)** - Com o que foi feito no exercício anterior, exiba todos os nomes, dentro do html: ``<ul id="nomes"></ul>`` 
 
 Exemplo:
 #### **Deuses Nórdicos** 
