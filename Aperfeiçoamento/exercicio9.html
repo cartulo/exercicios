@@ -2,19 +2,18 @@
 <html>
 
 <body>
-    <button onclick="escreva()">Surja!</button> <br>
+    <button onclick="letras()">Surja!</button> <br>
     <ul id="lista"></ul>
     <script>
-        function escreva() {
+        function letras() {
             let deuses = ['Odin', 'Loki', 'Thor'];
             deuses.sort();
             let lista = document.getElementById('lista');
-            for (var i = 0; i < deuses.length; i++) {
-                let item = document.createElement('li');
-                item.appendChild(document.createTextNode(deuses[i]));
-                lista.appendChild(item);
-            }
-        }
+            let format = deuses.map(x => {
+                return `<li>${x}</li>`;
+            })
+            lista.innerHTML = format.join(' ');
+        } 
     </script>
 </body>
 
