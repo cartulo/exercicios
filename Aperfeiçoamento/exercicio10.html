@@ -8,12 +8,11 @@
         function letras() {
             let nomes = ["Caio", "Felipe", "Roberto", "Tiago"];
             let lista = document.getElementById('lista');
-            for (var i = 0; i < nomes.length; i++) {
-                let item = document.createElement('li');
-                item.appendChild(document.createTextNode(nomes[i] + nomes[i].length));
-                lista.appendChild(item);
-            }
-        }
+            let format = nomes.map(x => {
+                return `<li>${x} ${x.length}</li>`;
+            })
+            lista.innerHTML = format.join(' ');
+        } 
     </script>
 </body>
 
