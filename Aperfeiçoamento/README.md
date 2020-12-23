@@ -1,4 +1,4 @@
-### Nesta pasta iremos resolver alguns exercícios para aperfeiçoamento após os exercícios básicos de HTML
+### Nesta pasta iremos resolver alguns exercícios para aperfeiçoamento após os exercícios básicos de HTML e JS
 Caso não tenha visto sobre esses exercícios você pode conferir clicando [AQUI](https://github.com/Cartulo/Exercicios/blob/main/HTML%2C%20CSS%20e%20JS/README.md)
 
 ----------------------------------------------------------------------------------------------------
@@ -30,3 +30,20 @@ Ex: 'lol é melhor que Dark Souls' (Algo que é obviamente falso)
 ----------------------------------------------------------------------------------------------------
 
 **[Exercício 06](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio6.html)** - Peça ao usuário para digitar 5 números em uma caixa de texto. Calcule a média das destes números digitadas pelo usuário e exiba em uma div.
+
+----------------------------------------------------------------------------------------------------
+
+**[Exercício 07](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio7.html)** - Crie o seguinte array: var deuses = ['Odin', 'Loki', 'Thor'] \
+E Exiba a quantidade/comprimento que ele tem com a função .length
+
+----------------------------------------------------------------------------------------------------
+
+**[Exercício 08](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio8.html)** - Com o que foi feito no exercício anterior, exiba todos os nomes, dentro do html: <ul id="nomes"></ul> 
+
+Exemplo:
+#### **Deuses Nórdicos** 
+Odin \
+Loki \
+Thor
+
+----------------------------------------------------------------------------------------------------
