@@ -65,8 +65,8 @@ Exemplos de entrada e saída: \
 **[Exercício 11](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio11.html)** - Dentro da div com o id 'resultado', escreva 1x ('Repetição'). \
 Dica: ``'innerHTML', el.innerHTML = 'Repetição';``
 
-##### 1.1 - Dentro da div com o id 'resultado', escreva 2x ('Repetição').
-##### 1.2 - Dentro da div com o id 'resultado', escreva 20x ('Repetição'). (use o 'for')
-##### 1.3 - Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com forEach)
-##### 1.3 - Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com while)
+1.1 - Dentro da div com o id 'resultado', escreva 2x ('Repetição'). \
+1.2 - Dentro da div com o id 'resultado', escreva 20x ('Repetição'). (use o 'for') \
+1.3 - Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com forEach) \
+1.3 - Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com while)
 
