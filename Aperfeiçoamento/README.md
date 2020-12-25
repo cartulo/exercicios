@@ -62,10 +62,10 @@ Exemplos de entrada e saída: \
 
 ----------------------------------------------------------------------------------------------------
 
-**[Exercício 11](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio10.html)** - Dentro da div com o id 'resultado', escreva 1x ('Repetição'). \
+**[Exercício 11](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio11.html)** - Dentro da div com o id 'resultado', escreva 1x ('Repetição'). \
 Dica: ``'innerHTML', el.innerHTML = 'Repetição';`` 
 
-[11.1](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio10.1.html) - Dentro da div com o id 'resultado', escreva 2x ('Repetição'). \
-[11.2](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio10.2.html) - Dentro da div com o id 'resultado', escreva 20x ('Repetição'). (use o 'for') \
-[11.3](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio10.3.html) - Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com forEach) \
-[11.3](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio10.4.html) - Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com while)
+[11.1](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio11.1.html) - Dentro da div com o id 'resultado', escreva 2x ('Repetição'). \
+[11.2](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio11.2.html) - Dentro da div com o id 'resultado', escreva 20x ('Repetição'). (use o 'for') \
+[11.3](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio11.3.html) - Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com forEach) \
+[11.3](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio11.4.html) - Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com while)
