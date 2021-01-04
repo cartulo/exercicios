@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <button onclick="repetir()">Surja!</button> <br><br>
+    <div id="pete"></div>
+    <script>
+        function repetir() {
+            let arr = ["Repetição", "Repetição", "Repetição", "Repetição", "Repetição"];
+
+            arr.forEach(function (i) {
+                document.getElementById("pete").innerHTML += (i + "<br>");
+            });
+        }
+    </script>
+</body>
+
+</html>
