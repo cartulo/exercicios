@@ -70,3 +70,26 @@ Dica: ``'innerHTML', el.innerHTML = 'Repetição';``
 [11.4](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio11.4.html) - Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com while)
 
 ---
+
+**[Exercício 12](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio12.html)** - Dentro da div com o id 'resultado', escreva os números de 0 ~ 10 (escolha uma das opções utilizado no exercício anterior)
+
+---
+
+**[Exercício 13](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio13.html)** - Dentro da div com o id 'resultado', escreva os números pares até 20... (ex 2,4,6...20)
+
+---
+**Exercício 14** - A partir do seguinte vetor e utilizando os métodos de array (map, reduce, filter e find):
+```
+const usuarios = [
+ { nome: 'Caio', idade: 25, empresa: 'Google' },
+ { nome: 'Tiago', idade: 35, empresa: 'Microsoft' },
+ { nome: 'Felipe', idade: 30, empresa: 'Apple' },
+];
+```
+**[14.1]()** Utilizando o **[map](https://www.w3schools.com/jsref/jsref_map.asp)** \
+Crie uma variável que contenha todas idades dos usuários: [23, 15, 30] \
+**[14.2]()** Utilizando o **[filter](https://www.w3schools.com/jsref/jsref_filter.asp)** \
+Crie uma variáveis que tenha apenas os usuários que trabalham na Apple e com mais de 30 anos:
+``[{ nome: 'Felipe', idade: 30, empresa: 'Apple' }}]`` \
+**[14.3]()** Utilizando o **[find](https://www.w3schools.com/JSREF/jsref_find.asp)** \
+Crie uma variável que procura por um usuário que trabalhe na empresa Google: ``undefined``
