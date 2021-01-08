@@ -14,7 +14,7 @@
         function filtrar() {
             texto = document.getElementById("divlinda");
             const filtro = usuarios.filter(person => person.empresa == 'Apple' && person.idade > 30).map(x => `<div>Nome: ${x.nome} Idade: ${x.idade} Empresa: ${x.empresa}</div>`);
-            texto.innerHTML = filtro;
+            texto.innerHTML = `Nome: ${filtro.nome} Idade: ${filtro.idade} Empresa: ${filtro.empresa} <br>`;
         }
 
     </script>

@@ -2,7 +2,7 @@
 <html>
 
 <body>
-    <button onclick="filtrar()">Surja!</button> <br><br>
+    <button onclick="encontrar()">Surja!</button> <br><br>
     <div id="divlinda"></div>
     <script>
         const usuarios = [
@@ -11,10 +11,10 @@
             { nome: 'Felipe', idade: 30, empresa: 'Apple' },
         ];
 
-        function filtrar() {
+        function encontrar() {
             texto = document.getElementById("divlinda");
             const filtro = usuarios.find(person => person.empresa == 'Google');
-            texto.innerHTML = "Nome: " + filtro.nome + " Idade: " + filtro.idade + " Empresa: " + filtro.empresa + "<br>";
+            texto.innerHTML = `Nome: ${filtro.nome} Idade: ${filtro.idade} Empresa: ${filtro.empresa} <br>`;
         }
 
     </script>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<button onclick="mapear()">Surja!</button> <br><br>
-<p id="p"></p>
 
 <body>
+    <button onclick="mapear()">Surja!</button> <br><br>
+    <p id="p"></p>
     <script>
         const usuarios = [
             { nome: 'Caio', idade: 25, empresa: 'Google' },
@@ -13,10 +13,10 @@
 
         function mapear() {
             texto = document.getElementById("p");
-            const map = usuarios.map(function (idade, num) {
+            const map = usuarios.map(function (usuario, num) {
                 /* 15 e 30 também funciona, ele apenas retorna os usuarios com uma idade maior que o número abaixo. */
-                if (idade.idade > 23) {
-                    return "Nome: " + idade.nome + "Idade: " + idade.idade + "Empresa: " + idade.empresa + "<br>";
+                if (usuario.idade > 23) {
+                    return `Nome: ${usuario.nome} Idade: ${usuario.idade} Empresa: ${usuario.empresa} <br>`;
                 }
             });
             texto.innerHTML = map.join(' ');

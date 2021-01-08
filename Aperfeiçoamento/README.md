@@ -28,7 +28,7 @@ Ex: 'lol é melhor que Dark Souls' (Algo que é obviamente falso)
 
 ---
 
-**[Exercício 06](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio6.html)** - Peça ao usuário para digitar 5 números em uma caixa de texto. Calcule a média das destes números digitadas pelo usuário e exiba em uma div.
+**[Exercício 06](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio6.html)** - Peça ao usuário para digitar 5 números em uma caixa de texto. Calcule a média destes números digitados pelo usuário e exiba em uma div.
 
 ---
 
@@ -51,7 +51,7 @@ Thor
 
 ---
 
-**[Exercício 10](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio10.html)** - Exiba a quantidade de letras que possuem o texto inserido ao clicar no botão.
+**[Exercício 10](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio10.html)** - Exiba a quantidade de letras que possue o texto inserido ao clicar no botão.
 
 Exemplos de entrada e saída: \
 'Caio' // 4 \
