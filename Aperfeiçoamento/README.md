@@ -96,7 +96,7 @@ Crie uma variável que procura por um usuário que trabalhe na empresa Google: `
 
 ---
 **[Exercício 15/Projeto 01](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio15.html)** - 
-Faça uma tela que contenha os seguintes campos: \
+Faça uma tela que contenha os seguintes campos:
 ![](https://github.com/Cartulo/Exercicios/blob/main/img/projeto1.png) \
 O SELECT deve ser preenchida com as opções que há na API informada, ao clicar no SUBMIT a API será chamada e o response dela será mostrado na tela como no exemplo acima. O valor que deve ser utilizado do responde é ‘high’. Como no exemplo de response abaixo:
 ```

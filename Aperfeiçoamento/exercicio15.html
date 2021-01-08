@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 01</title>
+</head>
+
+<body>
+    <h1>Cotações de Moedas</h1>
+    Selecione a moeda:
+    <select id="coins">
+        <option value="USD">USD</option>
+        <option value="USDT">USDT</option>
+        <option value="CAD">CAD</option>
+        <option value="AUD">AUD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="ARS">ARS</option>
+        <option value="JPY">JPY</option>
+        <option value="CHF">CHF</option>
+        <option value="CNY">CNY</option>
+        <option value="YLS">YLS</option>
+        <option value="BTC">BTC</option>
+        <option value="LTC">LTC</option>
+        <option value="ETH">ETH</option>
+        <option value="XRP">XRP</option>
+    </select> <br> <br>
+    <p id="resposta"></p>
+    <input type="submit" onclick="Converter()" value="Submit" />
+    <script>
+        function Converter() {
+
+            var request = new XMLHttpRequest();
+
+            request.onreadystatechange = () => {
+                if (request.readyState == 4 && request.status == 200) {
+                    valor.innerHTML = `Valor da moeda em REAL: ${JSON.parse(request.responseText)[0].high}`;
+                }
+            };
+
+            var code = document.getElementById("coins").value;
+
+            request.open("GET", `https://economia.awesomeapi.com.br/${code}`);
+
+            valor = document.getElementById("resposta");
+            request.send();
+        }
+    </script>
+</body>
+
+</html>
