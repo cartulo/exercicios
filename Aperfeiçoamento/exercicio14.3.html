@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <button onclick="filtrar()">Surja!</button> <br><br>
+    <div id="divlinda"></div>
+    <script>
+        const usuarios = [
+            { nome: 'Caio', idade: 25, empresa: 'Google' },
+            { nome: 'Tiago', idade: 35, empresa: 'Microsoft' },
+            { nome: 'Felipe', idade: 30, empresa: 'Apple' },
+        ];
+
+        function filtrar() {
+            texto = document.getElementById("divlinda");
+            const filtro = usuarios.find(person => person.empresa == 'Google');
+            texto.innerHTML = "Nome: " + filtro.nome + " Idade: " + filtro.idade + " Empresa: " + filtro.empresa + "<br>";
+        }
+
+    </script>
+</body>
+
+</html>

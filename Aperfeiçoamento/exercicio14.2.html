@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <button onclick="filtrar()">Surja!</button> <br><br>
+    <div id="divlinda"></div>
+    <script>
+        const usuarios = [
+            { nome: 'Caio', idade: 25, empresa: 'Google' },
+            { nome: 'Tiago', idade: 35, empresa: 'Microsoft' },
+            { nome: 'Felipe', idade: 30, empresa: 'Apple' },
+        ];
+
+        function filtrar() {
+            texto = document.getElementById("divlinda");
+            const filtro = usuarios.filter(person => person.empresa == 'Apple' && person.idade > 30).map(x => `<div>Nome: ${x.nome} Idade: ${x.idade} Empresa: ${x.empresa}</div>`);
+            texto.innerHTML = filtro;
+        }
+
+    </script>
+</body>
+
+</html>

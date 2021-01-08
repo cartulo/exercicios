@@ -86,10 +86,35 @@ const usuarios = [
  { nome: 'Felipe', idade: 30, empresa: 'Apple' },
 ];
 ```
-**[14.1]()** Utilizando o **[map](https://www.w3schools.com/jsref/jsref_map.asp)** \
+**[14.1](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio14.1.html)** Utilizando o **[map](https://www.w3schools.com/jsref/jsref_map.asp)** \
 Crie uma variável que contenha todas idades dos usuários: [23, 15, 30] \
-**[14.2]()** Utilizando o **[filter](https://www.w3schools.com/jsref/jsref_filter.asp)** \
+**[14.2](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio14.2.html)** Utilizando o **[filter](https://www.w3schools.com/jsref/jsref_filter.asp)** \
 Crie uma variáveis que tenha apenas os usuários que trabalham na Apple e com mais de 30 anos:
 ``[{ nome: 'Felipe', idade: 30, empresa: 'Apple' }}]`` \
-**[14.3]()** Utilizando o **[find](https://www.w3schools.com/JSREF/jsref_find.asp)** \
+**[14.3](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio14.3.html)** Utilizando o **[find](https://www.w3schools.com/JSREF/jsref_find.asp)** \
 Crie uma variável que procura por um usuário que trabalhe na empresa Google: ``undefined``
+
+---
+**[Exercício 15/Projeto 01](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio15.html)** - 
+Faça uma tela que contenha os seguintes campos: \
+![](https://github.com/Cartulo/Exercicios/blob/main/img/projeto1.png) \
+O SELECT deve ser preenchida com as opções que há na API informada, ao clicar no SUBMIT a API será chamada e o response dela será mostrado na tela como no exemplo acima. O valor que deve ser utilizado do responde é ‘high’. Como no exemplo de response abaixo:
+```
+USD: {
+code: "USD",
+codein: "BRL",
+name: "Dólar Comercial",
+high: "3,8906",
+low: "3,8596",
+varBid: "-0,0138",
+pctChange: "-0,36",
+bid: "3,8660",
+ask: "3,8680",
+timestamp: "1555360069",
+create_date: "2019-04-15 17:27:50"
+},
+```
+API a ser ultizada: https://docs.awesomeapi.com.br/api-de-moedas
+
+Dica: verifique o método que requisição POST ou GET na documentação da API.
+
