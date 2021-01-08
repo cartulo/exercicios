@@ -121,13 +121,13 @@ Dica: verifique o método que requisição POST ou GET na documentação da API.
 
 ---
 
-**[Exercício 16/Projeto 02](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio16.html)** - Neste projeto você precisará construir uma tela para pesquisa de CEP, que no momento que o cliente inserir o CEP dele deverá retornar o seu endereço completo. \
+**[Exercício 16/Projeto 02](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio16.html)** - Neste projeto você precisará construir uma tela para pesquisa de CEP, que no momento que o cliente inserir o CEP dele deverá retornar o seu endereço completo. 
 
-**01 -Construa uma tela que contenha os seguintes campos:**
-![projeto2pt1](https://github.com/Cartulo/Exercicios/blob/main/img/projeto2pt1.png) \
+**01 -Construa uma tela que contenha os seguintes campos:** \
+![](https://github.com/Cartulo/Exercicios/blob/main/img/projeto2pt1.png) \
 OBS: O input deve aceitar somente números.
 
-**02 - ao clicar no SUBMIT a API será chamada e o response dela será mostrado na tela como no exemplo abaixo:**
+**02 - ao clicar no SUBMIT a API será chamada e o response dela será mostrado na tela como no exemplo abaixo:** \
 ![](https://github.com/Cartulo/Exercicios/blob/main/img/projeto2pt2.png)
 
 API: https://docs.awesomeapi.com.br/api-cep
