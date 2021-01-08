@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 02</title>
+</head>
+
+<body>
+    <h1>Endereço</h1>
+    Abaixo você pode verificar seu endereço pelo CEP <br><br>
+    Insira seu CEP:
+    <input type="number" id="cep" value="18085720"> <br><br>
+    <button type="submit" onclick="Pesquisar()">Pesquisar</button>
+    <p id="resposta"></p>
+    <script>
+        function Pesquisar() {
+
+            var request = new XMLHttpRequest();
+
+            request.onreadystatechange = () => {
+                if (request.readyState == 4 && request.status == 200) {
+                    valor.innerHTML =
+                        `<strong>Endereço do CEP:</strong><br><br>
+                        CEP: ${JSON.parse(request.responseText).cep}<br>
+                        Endereço: ${JSON.parse(request.responseText).address}<br>
+                        Tipo de endereço: ${JSON.parse(request.responseText).address_type}<br>
+                        Estado: ${JSON.parse(request.responseText).state}<br>
+                        Bairro: ${JSON.parse(request.responseText).district}<br>
+                        Cidade: ${JSON.parse(request.responseText).city}<br>
+                        DDD: ${JSON.parse(request.responseText).ddd}`;
+                }
+            };
+
+            var num = document.getElementById("cep").value;
+
+            request.open("GET", `https://cep.awesomeapi.com.br/json/${num}`);
+
+            valor = document.getElementById("resposta");
+            request.send();
+        }
+    </script>
+</body>
+
+</html>

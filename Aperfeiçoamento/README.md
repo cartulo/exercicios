@@ -78,6 +78,7 @@ Dica: ``'innerHTML', el.innerHTML = 'Repetição';``
 **[Exercício 13](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio13.html)** - Dentro da div com o id 'resultado', escreva os números pares até 20... (ex 2,4,6...20)
 
 ---
+
 **Exercício 14** - A partir do seguinte vetor e utilizando os métodos de array (map, reduce, filter e find):
 ```
 const usuarios = [
@@ -94,6 +95,7 @@ Crie uma variáveis que tenha apenas os usuários que trabalham na Apple e com m
 Crie uma variável que procura por um usuário que trabalhe na empresa Google: ``undefined``
 
 ---
+
 **[Exercício 15/Projeto 01](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio15.html)** - 
 Faça uma tela que contenha os seguintes campos: \
 ![](https://github.com/Cartulo/Exercicios/blob/main/img/projeto1.png) \
@@ -117,3 +119,34 @@ API a ser ultizada: https://docs.awesomeapi.com.br/api-de-moedas
 
 Dica: verifique o método que requisição POST ou GET na documentação da API.
 
+---
+
+**[Exercício 16/Projeto 02](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio16.html)** - Neste projeto você precisará construir uma tela para pesquisa de CEP, que no momento que o cliente inserir o CEP dele deverá retornar o seu endereço completo. \
+
+**01 -Construa uma tela que contenha os seguintes campos:**
+![projeto2pt1](https://github.com/Cartulo/Exercicios/blob/main/img/projeto2pt1.png) \
+OBS: O input deve aceitar somente números.
+
+**02 - ao clicar no SUBMIT a API será chamada e o response dela será mostrado na tela como no exemplo abaixo:**
+![](https://github.com/Cartulo/Exercicios/blob/main/img/projeto2pt2.png)
+
+API: https://docs.awesomeapi.com.br/api-cep
+
+Exemplo de request:
+https://cep.awesomeapi.com.br/json/03375000
+
+Exemplo de response:
+```
+{
+    "cep": "03375000",
+    "address_type": "Rua",
+    "address_name": "Hemisfério",
+    "address": "Rua Hemisfério",
+    "state": "SP",
+    "district": "Chácara Belenzinho",
+    "lat": "-23.5727636",
+    "lng": "-46.5505504",
+    "city": "São Paulo",
+    "city_ibge": "3550308",
+    "ddd": "11"
+}```
