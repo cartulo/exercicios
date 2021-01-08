@@ -89,11 +89,9 @@ const usuarios = [
 **[14.1](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio14.1.html)** Utilizando o **[map](https://www.w3schools.com/jsref/jsref_map.asp)** \
 Crie uma variável que contenha todas idades dos usuários: [23, 15, 30] \
 **[14.2](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio14.2.html)** Utilizando o **[filter](https://www.w3schools.com/jsref/jsref_filter.asp)** \
-Crie uma variáveis que tenha apenas os usuários que trabalham na Apple e com mais de 30 anos: \
-``[{ nome: 'Felipe', idade: 30, empresa: 'Apple' }}]`` \
+Crie uma variáveis que tenha apenas os usuários que trabalham na Apple e com mais de 30 anos: ``[{ nome: 'Felipe', idade: 30, empresa: 'Apple' }}]`` \
 **[14.3](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio14.3.html)** Utilizando o **[find](https://www.w3schools.com/JSREF/jsref_find.asp)** \
-Crie uma variável que procura por um usuário que trabalhe na empresa Google: \
-``undefined``
+Crie uma variável que procura por um usuário que trabalhe na empresa Google: ``undefined``
 
 ---
 **[Exercício 15/Projeto 01](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/exercicio15.html)** - 
