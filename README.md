@@ -7,4 +7,4 @@ Para mais informações [CLIQUE AQUI](https://github.com/Cartulo/Exercicios/blob
 
 ### Aperfeiçoamento
 Aqui resolveremos alguns exercícios para reforçar oque foi feito em **HTML e JS** (citado anteriormente). \
-Para mais informações [CLIQUE AQUI](https://github.com/Cartulo/Exercicios/tree/main/Aperfeiçoamento).
+Para mais informações [CLIQUE AQUI](https://github.com/Cartulo/Exercicios/blob/main/Aperfeiçoamento/README.md).
