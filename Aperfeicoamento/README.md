@@ -1,6 +1,6 @@
 ### Nesta pasta iremos resolver alguns exercícios para Aperfeicoamento após os exercícios básicos de HTML e JS
 
-Caso não tenha visto sobre esses exercícios você pode conferir clicando [AQUI](https://github.com/Cartulo/Exercicios/blob/main/HTML%2C%20CSS%20e%20JS/README.md)
+Caso não tenha visto sobre esses exercícios você pode conferir clicando [AQUI](https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/README.md)
 
 ---
 
