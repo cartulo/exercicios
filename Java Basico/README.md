@@ -5,3 +5,5 @@
 **[Calculadora de Dois Números v1.2](https://github.com/Cartulo/Exercicios/blob/main/Java%20Basico/SomaTeste)** - Um primeiro exercício proposto pelo professor, desde a soma entre dois números até concluir as quatro operações básicas. Agora melhorado ;)
 
 **[Verificador de Triângulos](https://github.com/Cartulo/Exercicios/blob/main/Java%20Basico/Triangulos)** - Tarefa proposta pelo professor, é um aplicativo que após apresentar 3 valores (que seriam os lados de um triângulo) o aplicativo retorna ao usuário a resposta de que tipo de triãngulo seria. (equilátero, escaleno ou isósceles)
+
+**[Calculadora de Seno, Cosseno e Tangente](https://github.com/Cartulo/Exercicios/blob/main/Java%20Basico/SenoCosTang)** - Um projeto proposto pelo professor, a intenção é calcular os valores de Seno, Cosseno e Tangente apenas com o usuário enviando o valor dos graus. Calculamos os radianos e realizamos os cálculos, conta com "catchs" de erros e sistemas de herança e polimorfismo.
