@@ -15,7 +15,7 @@
 <h1>🏋️ Exercícios</h1>
 <p>Repositório onde publico exercícios que resolvi, você pode usá-los para treinar se quiser.  😄 </p>
 <p><a href="https://github.com/cartulo/exercicios">🔎Explore a documentação »</a></p>
-<p>Read this same README in English <a href="https://github.com/cartulo/exercicios#readme-en">HERE</a></p>
+<p>Read this same README in English <a href="https://github.com/cartulo/exercicios#readme">HERE</a></p>
 <p>
 Ver demonstrativo (Em construção) 🛠️
 ·
@@ -27,11 +27,11 @@ Ver demonstrativo (Em construção) 🛠️
 <details open>
 <summary>Índice</summary>
 <ol>
-    <li><a href="https://github.com/cartulo/exercicios#about-this-project">Sobre este projeto</a></li>
-    <li><a href="https://github.com/cartulo/exercicios#roadmap">Roteiro</a></li>
-    <li><a href="https://github.com/cartulo/exercicios#contribuing">Contribuindo</a></li>
-    <li><a href="https://github.com/cartulo/exercicios#contact">Contato</a></li>
-    <li><a href="https://github.com/cartulo/exercicios#acknowledgments">Agradecimentos</a></li>
+    <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#sobre-este-projeto">Sobre este projeto</a></li>
+    <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#roteiro">Roteiro</a></li>
+    <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#contribuindo">Contribuindo</a></li>
+    <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#contato">Contato</a></li>
+    <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#agradecimentos">Agradecimentos</a></li>
 </ol>
 </details>
 
@@ -45,18 +45,18 @@ Existem muitos exercícios disponíveis na internet, principalmente no GitHub, m
     <li>Eu realmente acho divertido fazer isso 🤣</li>
 </ul>
 <p> 
-    Você também pode sugerir exercícios enviando-me uma mensagem por qualquer meio presente na guia <a href="https://github.com/cartulo/exercicios#contact">Contatos</a>. Além de me dar os exercícios, você pode resolvê-los de uma maneira melhor, basta fazer um fork deste repositório e criar um pull request ou abrir um issue. Obrigado a todos que contribuíram para expandir este mesmo repositório! 🎉
+    Você também pode sugerir exercícios enviando-me uma mensagem por qualquer meio presente na guia <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#contato">Contatos</a>. Além de me dar os exercícios, você pode resolvê-los de uma maneira melhor, basta fazer um fork deste repositório e criar um pull request ou abrir um issue. Obrigado a todos que contribuíram para expandir este mesmo repositório! 🎉
  </p>
 
 <h1>Roteiro</h1>
 <h2>HTML e JS</h2>
 <p>Aqui estão exercícios que abrangem HTML e JavaScript.  <br>
-Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/README.md">CLIQUE AQUI</a>.</p>
+Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/README-pt.md">CLIQUE AQUI</a>.</p>
 
 <h2>Aperfeiçoamento </h2>
 <p>
-Nada mais do que um reforço de <a href="https://github.com/cartulo/exercicios#HTML-and-JS">HTML e JavaScript</a>, com exercícios que trazem uma ideia de situação-problema, como se estivéssemos montando um projeto no cotidiano de um programador.
-Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/README.md">CLIQUE AQUI</a>.</p>
+Nada mais do que um reforço de <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#html-e-js">HTML e JavaScript</a>, com exercícios que trazem uma ideia de situação-problema, como se estivéssemos montando um projeto no cotidiano de um programador.
+Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/README-pt.md">CLIQUE AQUI</a>.</p>
 
 <h2>Java Básico</h2>
 <p>Eu sou muito novo em Java, então espero que esses exercícios também sirvam como uma base introdutória sobre a linguagem. <br>
@@ -86,7 +86,7 @@ Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blo
 </p>
 <h1>Contato</h1>
 <p>Gilberto Júnior - <a href="linkedin.com/in/gil-tulo/">LinkedIn</a> - <a href="mailto:contato.gil.tulo@gmail.com">contato.gil.tulo@gmail.com</a></p>
-<p>Link do Projeto: <a href="https://github.com/Cartulo/Exercicios#readme">https://github.com/Cartulo/Exercicios</a></p>
+<p>Link do Projeto: <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md">https://github.com/Cartulo/Exercicios/blob/main/README-pt.md</a></p>
 
 <h1>Agradecimentos</h1>
 <ul>
