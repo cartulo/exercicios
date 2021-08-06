@@ -36,11 +36,11 @@
 
 <h1>About this project</h1>
 <p>
-    There are many exercises available over the internet, mainly on GitHub, but in particular I needed to present the exercise resolution to a colleague who helped me with JavaScript training. Since then I've added the exercises here and with each resolved code the repository grew, so I decided to turn it into a project that serves both to mark my evolution and to help other people.
+    There are many exercises available over the internet, mainly on GitHub. However, I needed to present an exercise resolution to a colleague who helped me with JavaScript training. Since then, I’ve decided to turn it into a project whose principle is to demonstrate my evolution and help other people. 
 </p>
 <ul>
-    <li>My time here is not wasted, it is the milestone of my evolution</li>
-    <li>With the refinement of the repository it can help someone's studies</li>
+    <li>My time here isn't wasted - it is the milestone of my evolution</li>
+    <li>The refinement of the repository, it can help someone's studies</li>
     <li>I really find it fun to do this 🤣</li>
 </ul>
 <p> 

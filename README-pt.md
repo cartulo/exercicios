@@ -76,10 +76,10 @@ Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blo
 <details>
 <summary>Sumário</summary>
 <ul>
-<li>Fork » [SIGNIFICADO]</li>
-<li>Branch » [SIGNIFICADO]</li>
-<li>Commit » [SIGNIFICADO]</li>
-<li>Pull Request » [SIGNIFICADO]</li>
+<li>Fork » "Bifurcação", quando um desenvolvedor inicia um projeto independente com base no código de um projeto já existente.</li>
+<li>Branch » "Galho", branches são separações de código.</li>
+<li>Commit » Um commit é um grupo de alterações no código. Toda vez que você quiser "salvar" as alterações feitas por você no repositório, você commita essas mudanças.</li>
+<li>Pull Request » é um pedido que se faz ao dono do repositório para que esse atualize o código dele com o seu código.</li>
 </ul>
 </details>
 
@@ -97,6 +97,8 @@ Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blo
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
     <li><a href="https://www.oracle.com/br/java/technologies/javase-jdk8-doc-downloads.html">Java</a></li>
     <li><a href="https://github.com/othneildrew/Best-README-Template#about-the-project">Um modelo incrível que usei neste README</a></li>
+    <li><a href="https://pt.wikipedia.org/wiki/Bifurcação_(desenvolvimento_de_software)">Sobre Fork</a></li>
+    <li><a href="https://gist.github.com/victorsenam/8580499">Sobre Branch, Commit e Pull Request</a></li>
 </ul>
 </body>
 </html>
