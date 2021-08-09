@@ -15,9 +15,9 @@
 <h1>🏋️ Exercícios</h1>
 <p>Repositório onde publico exercícios que resolvi, você pode usá-los para treinar se quiser.  😄 </p>
 <p><a href="https://github.com/cartulo/exercicios">🔎Explore a documentação »</a></p>
-<p>Read this same README in English <a href="https://github.com/cartulo/exercicios#readme">HERE</a></p>
+<p>Read the English version of this README <a href="https://github.com/cartulo/exercicios#readme">HERE</a></p>
 <p>
-Ver demonstrativo (Em construção) 🛠️
+🚧 Ver demonstrativo (Em construção) 🚧
 ·
 <a href="https://github.com/cartulo/exercicios/issues">Reporte um problema</a>
 ·
@@ -37,7 +37,7 @@ Ver demonstrativo (Em construção) 🛠️
 
 <h1>Sobre este projeto</h1>
 <p>
-Existem muitos exercícios disponíveis na internet, principalmente no GitHub, mas em particular eu precisava apresentar a resolução de alguns exercícios a um colega que me ajudou com o treinamento de JavaScript. Desde então adicionei os exercícios aqui e a cada código resolvido o repositório cresceu, então decidi transformá-lo em um projeto que serve tanto para marcar minha evolução quanto para ajudar outras pessoas. 
+Existem muitos exercícios disponíveis na internet, principalmente no GitHub. No entanto, eu precisava apresentar a resolução de alguns exercícios a um colega que me ajudou com o treinamento de JavaScript. Desde então, decidi transformá-lo em um projeto cujo princípio é demonstrar minha evolução e ajudar outras pessoas.
 </p>
 <ul>
     <li>Meu tempo aqui não é perdido, é o marco da minha evolução </li>
@@ -55,7 +55,7 @@ Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blo
 
 <h2>Aperfeiçoamento </h2>
 <p>
-Nada mais do que um reforço de <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#html-e-js">HTML e JavaScript</a>, com exercícios que trazem uma ideia de situação-problema, como se estivéssemos montando um projeto no cotidiano de um programador.
+Nada mais do que um reforço de <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#html-e-js">HTML e JavaScript</a>, com exercícios que trazem uma ideia de situação-problema, como se estivéssemos montando um projeto no cotidiano de um programador. <br>
 Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/README-pt.md">CLIQUE AQUI</a>.</p>
 
 <h2>Java Básico</h2>
@@ -79,7 +79,7 @@ Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blo
 <li>Fork » "Bifurcação", quando um desenvolvedor inicia um projeto independente com base no código de um projeto já existente.</li>
 <li>Branch » "Galho", branches são separações de código.</li>
 <li>Commit » Um commit é um grupo de alterações no código. Toda vez que você quiser "salvar" as alterações feitas por você no repositório, você commita essas mudanças.</li>
-<li>Pull Request » é um pedido que se faz ao dono do repositório para que esse atualize o código dele com o seu código.</li>
+<li>Pull Request » Pull Request é um pedido que se faz ao dono do repositório para que esse atualize o código dele com o seu código.</li>
 </ul>
 </details>
 

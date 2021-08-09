@@ -1,9 +1,34 @@
-### Nesta pasta teremos projetos em Java.
+<html>
+<body>
+<div style="text-align: center">
+    <h1>☕ Basic Java</h1>
+    <p>Here are the basic exercises we are doing, I hope it will serve as a basis for you in the language.</p>
+    <p style="text-align: center"><a href="https://github.com/Cartulo/Exercicios/tree/main/HTML%20e%20JS">🔎Explore the documentation »</a></p>
+</div>
 
-**[Calculadora de PA e PG](https://github.com/Cartulo/Exercicios/blob/main/Java%20Basico/PA)** - A princípio eu criei apenas para treino, fiz apenas a calculadora resolver Progressão Aritmética passo-a-passo dado alguns valores e então implementei a resolução para Progressão Geométrica também.
+<h1>📝 Exercise List</h1>
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio1-basico.html">PA and PG calculator</a> - At first I created it just for In training, I just made the calculator solve Arithmetic Progression step-by-step given some values ​​and then implemented the solving for Geometric Progression as well.
+</p>
 
-**[Calculadora de Dois Números v1.2](https://github.com/Cartulo/Exercicios/blob/main/Java%20Basico/SomaTeste)** - Um primeiro exercício proposto pelo professor, desde a soma entre dois números até concluir as quatro operações básicas. Agora melhorado ;)
+---
 
-**[Verificador de Triângulos](https://github.com/Cartulo/Exercicios/blob/main/Java%20Basico/Triangulos)** - Tarefa proposta pelo professor, é um aplicativo que após apresentar 3 valores (que seriam os lados de um triângulo) o aplicativo retorna ao usuário a resposta de que tipo de triãngulo seria. (equilátero, escaleno ou isósceles)
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio1-basico.html">Two Number Calculator v1.2</a> - A first proposed exercise by the teacher, from adding two numbers to completing the four basic operations. Now improved ;)
+</p>
 
-**[Calculadora de Seno, Cosseno e Tangente](https://github.com/Cartulo/Exercicios/blob/main/Java%20Basico/SenoCosTang)** - Um projeto proposto pelo professor, a intenção é calcular os valores de Seno, Cosseno e Tangente apenas com o usuário enviando o valor dos graus. Calculamos os radianos e realizamos os cálculos, conta com "catchs" de erros e sistemas de herança e polimorfismo.
+---
+
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio1-basico.html">Triangles Checker</a> - Task proposed by the teacher, it is an application that after presenting 3 values ​​(which would be the sides of a triangle) the application returns to the user the answer of what kind of triangle it would be. (equilateral, scalene or isosceles)
+</p>
+
+---
+
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio1-basico.html">Sine, Cosine and Tangent Calculator</a> - A project proposed by teacher, the intention is to calculate the values ​​of Sine, Cosine and Tangent only with the user sending the value of degrees. We calculate the radians and perform the calculations, it has error catches and inheritance and polymorphism systems.
+</p>

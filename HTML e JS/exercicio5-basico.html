@@ -1,73 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <!-- 05 – Após realizar o login considero um diferencial realizar a criação de um  usuário. 
         A API para esse serviço está protegida por mecanismo para autenticação  baseada em token. -->
-    <meta charset="utf-8">
-</head>
+    <meta charset="utf-8" />
+  </head>
 
-<body>
+  <body>
     <form name="Form">
-        login:
-        <input type="text" value="gilbertocolossus@gmail.com" name="login" /> <br><br>
-        name:
-        <input type="text" value="Gilberto Júnior" name="name" /> <br><br>
-        email:
-        <input type="text" value="gilbertocolossus@gmail.com" name="email" /> <br><br>
-        password:
-        <input type="text" value="123456" name="password" /> <br><br>
-        confirma_password:
-        <input type="text" value="123456" name="confirma_password" /> <br><br>
-        idEmpresa:
-        <input type="text" value="13" name="idEmpresa" /> <br><br>
-        Status:
-        <input type="text" value="Apovado" name="Status" /> <br><br>
-        role:
-        <input type="text" value="Client" name="role" /> <br><br>
-        regId:
-        <input type="text" value="" name="regId" /> <br><br>
-        status:
-        <input type="text" value="Aprovado" name="status" /> <br><br>
-        <br><br>
-        <button onclick="envio(event)">Enviar Formulario</button>
-        <button><a href="exercicio4-basico.html">Login</a></button>
+      login:
+      <input type="text" value="contato.gil.tulo@gmail.com" name="login" />
+      <br /><br />
+      name:
+      <input type="text" value="Gilberto Júnior" name="name" /> <br /><br />
+      email:
+      <input type="text" value="contato.gil.tulo@gmail.com" name="email" />
+      <br /><br />
+      password:
+      <input type="text" value="123456" name="password" /> <br /><br />
+      confirma_password:
+      <input type="text" value="123456" name="confirma_password" /> <br /><br />
+      idEmpresa:
+      <input type="text" value="13" name="idEmpresa" /> <br /><br />
+      Status:
+      <input type="text" value="Apovado" name="Status" /> <br /><br />
+      role:
+      <input type="text" value="Client" name="role" /> <br /><br />
+      regId:
+      <input type="text" value="" name="regId" /> <br /><br />
+      status:
+      <input type="text" value="Aprovado" name="status" /> <br /><br />
+      <br /><br />
+      <button onclick="envio(event)">Enviar Formulario</button>
+      <button><a href="exercicio4-basico.html">Login</a></button>
     </form>
     <script>
-        const envio = (e) => {
-            e.preventDefault();
+      const envio = (e) => {
+        e.preventDefault();
 
-            var name = document.forms["Form"]["name"];
-            var email = document.forms["Form"]["email"];
-            var password = document.forms["Form"]["password"];
-            var confirma_password = document.forms["Form"]["confirma_password"];
-            var mytoken = localStorage.getItem("token");
+        var name = document.forms['Form']['name'];
+        var email = document.forms['Form']['email'];
+        var password = document.forms['Form']['password'];
+        var confirma_password = document.forms['Form']['confirma_password'];
+        var mytoken = localStorage.getItem('token');
 
-            var request = new XMLHttpRequest();
+        var request = new XMLHttpRequest();
 
-            request.onreadystatechange = () => {
-                if (request.readyState == 4 && request.status == 200) {
-                }
-            };
+        request.onreadystatechange = () => {
+          if (request.readyState == 4 && request.status == 200) {
+          }
+        };
 
-            request.open("POST", "http://52.91.139.190/fsapi/users/auth/register-jwt");
+        request.open(
+          'POST',
+          'http://52.91.139.190/fsapi/users/auth/register-jwt'
+        );
 
-            request.setRequestHeader("Content-type", "application/json");
-            request.setRequestHeader("Authorization", "mytoken");
-            /* request.setRequestHeader("método GET ou POST", "url"); */
+        request.setRequestHeader('Content-type', 'application/json');
+        request.setRequestHeader('Authorization', 'mytoken');
+        /* request.setRequestHeader("método GET ou POST", "url"); */
 
-            const body = JSON.stringify({
-                "name": name.value,
-                "email": email.value,
-                "password": password.value,
-                "confirma_password": confirma_password.value,
-                "token": mytoken
-            })
+        const body = JSON.stringify({
+          name: name.value,
+          email: email.value,
+          password: password.value,
+          confirma_password: confirma_password.value,
+          token: mytoken,
+        });
 
-            request.send(body);
-            console.log("body:", body);
-        }
+        request.send(body);
+        console.log('body:', body);
+      };
     </script>
-</body>
-
+  </body>
 </html>

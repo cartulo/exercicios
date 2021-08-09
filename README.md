@@ -15,7 +15,7 @@
 <h1>🏋️ Exercises</h1>
 <p>Repository where I publish exercises I've solved, you can use them to train if you want. 😄 </p>
 <p><a href="https://github.com/cartulo/exercicios">🔎Explore the docs »</a></p>
-<p>Leia este mesmo README em Português <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md">AQUI</a></p>
+<p>Leia a versão Português deste README <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md">AQUI</a></p>
 <p>
 🚧 View Demo (Under construction) 🚧
 <a href="https://github.com/cartulo/exercicios/issues">Report Bug</a>

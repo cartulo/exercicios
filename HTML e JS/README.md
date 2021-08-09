@@ -1,38 +1,60 @@
-### Nesta pasta iremos ver 5 exercícios básicos de HTML e um pouco de JavaScript, segue os exercícios:
+<html>
+<body>
+<div style="text-align: center">
+    <h1>📝 HTML and JavaScript</h1>
+    <p>Here I have five separate HTML and JavaScript exercises. </p>
+    <p style="text-align: center"><a href="https://github.com/Cartulo/Exercicios/tree/main/HTML%20e%20JS">🔎Explore the docs »</a></p>
+</div>
 
-**[Exercício 01](https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio1-basico.html)** – Criar uma página HTML que contenha um formulário com os campos nome,  pontos, nota, universidade, empresas, avatars, horários. 
-Podem utilizar o  elemento input type text do form HTML para esses campos. 
-Além disso criem um  botão type submit. 
+<h1>📝 Exercise List</h1> 
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio1-basico.html">Exercise 01</a> - Create an HTML page that contains a form with the fields: name, points, grade, university, companies, avatars, times. You can use the HTML form input type text element for these fields. Also create a type submit button.<br>
+You can use the <code>input type="text"</code> element of the HTML form for these fields.<br>
+Also create a <code>type="submit"</code> button. 
+</p>
 
-----------------------------------------------------------------------------------------------------
+---
 
-**[Exercício 02](https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio2-basico.html)** – Crie uma função Javascript que permita validar o formulário criado no  exercício 01 quanto a obrigatoriedade dos campos para submit do form no botão submit. 
+<p>
+<input type="checkbox" checked />
+<a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio2-basico.html">Exercise 02</a> - Create a Javascript function that allows you to validate the form created in exercise 01 regarding the obligatory nature of the form submit fields in the submit button. 
+</p>
 
-----------------------------------------------------------------------------------------------------
+---
 
-**[Exercício 03](https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio3-basico.html)** – Transformar os campos “elementos“ da página criada no exercício 01, em  tipos de campos apropriados para o domínio de informação neles contidos.  
-Ex.: o campo “avatars” ao invés de utilizar um “input text” poderia utilizar um  “select” visto que ele pode conter uma lista multivalorada de itens para seleção, o  famoso “combobox”.
+<p>
+<input type="checkbox" checked />
+<a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio3-basico.html">Exercise 03</a> - Transform the elements fields of the page created in exercise 01 into appropriate field types for the domain of information contained therein.<br>
+Example: the "avatars" field instead of using an "input text" could use a "select" since it can contain a multivalued list of items for selection, the famous "combobox".
+</p>
 
-----------------------------------------------------------------------------------------------------
+---
 
-**[Exercício 04](https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio4-basico.html)** – Utilizando o objeto Javascript “XMLHttpRequest” realizar o POST do recurso  “usuario“ para autenticação na API REST. 
-O objeto JSON “JavaScript Object  Notation” apresentado abaixo,  para o endereço  
-http://52.91.139.190/fsapi/users/login
-    { 
-        "email": "fschorles@teste.com", 
-        "password": "123456" 
-    } 
-Dica: para submeter dados json a um servidor web devemos utilizar o content type = application/json 
+<p>
+<input type="checkbox" checked />
+<a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio4-basico.html">Exercise 04</a> - Using the Javascript object "XMLHttpRequest" perform the POST of the resource "user" for authentication in the REST API.<br>
+The JSON (JavaScript Object Notation) object shown below, for the address
+http://52.91.139.190/fsapi/users/login<br>
+<pre><code>     {
+         "email": "fschorles@test.com",
+         "password": "123456"
+     }
+</code></pre>
+<br>
+Tip: to submit json data to a web server we must use the <code>content type = application/json</code> 
+</p>
 
-----------------------------------------------------------------------------------------------------
+---
 
-**[Exercício 05](https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio5-basico.html)** – Após realizar o login considero um diferencial realizar a criação de um  usuário. 
-A API para esse serviço está protegida por mecanismo para autenticação  baseada em token. 
-*URL:* http://52.91.139.190/fsapi/users/auth/register-jwt
-*Método:* POST 
-*JSON Exemplo:*
-```
-{  
+<p>
+<input type="checkbox" checked />
+<a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio5-basico.html">Exercise 05</a> - After logging in, I consider it a differential to create a user.
+The API for this service is protected by a token-based authentication mechanism. <br> <br>
+<i>URL:</i> http://52.91.139.190/fsapi/users/auth/register-jwt <br>
+<i>Method:</i> POST <br>
+<i>JSON Example:</i>
+<pre><code>{  
     "login": "fschorles@gmail.com", 
     "name": "Felipe Schorles", 
     "email":"fschorles@gmail.com", 
@@ -44,12 +66,10 @@ A API para esse serviço está protegida por mecanismo para autenticação  base
    "regId": "", 
     "status" : "Aprovado" 
 } 
-```
-Header: Token para autenticação no serviço. Pegar do retorno do login  realizado no desafio anterior 
-Authorization = Bearer  
-eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjVjNDYxMmM4ZGY3NWVkZmY0ZmJlNDlmZCJ9.gw8v8xd2XqhmBjG 83hw2JTncXsLg9n3bzo9sob_I5w4
-
-
-
-
-
+</code></pre>
+Header: Token for authentication to the service. Get from the return of the login performed in the previous exercise <br> <br>
+Authorization = Bearer <br>
+eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjVjNDYxMmM4ZGY3NWVkZmY0ZmJlNDlmZCJ9.gw8v8xd2XqhmBjG 83hw2JTncXsLg9n3bzo9sob
+</p>
+</body>
+</html>

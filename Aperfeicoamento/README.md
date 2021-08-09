@@ -1,155 +1,195 @@
-### Nesta pasta iremos resolver alguns exercícios para Aperfeicoamento após os exercícios básicos de HTML e JS
-
-Caso não tenha visto sobre esses exercícios você pode conferir clicando [AQUI](https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/README.md)
-
----
-
-**[Exercício 01](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio1.html)** - Crie dois botões no HTML chamados: 'Verde' e 'Vermelho'. \
-Ao clicar neles o fundo da tela deve ser respectivo à cor do botão clicado. \
-Ex: Clicar no botão 'Verde' deve deixar o fundo da cor verde.
+<html>
+<body>
+<div style="text-align: center">
+    <h1>📈 Improvement</h1>
+    <p>Here we have a folder similar to <a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS#README.md">HTML and JS</a>, enjoy yourself solving the exercises 😅</p>
+    <p style="text-align: center"><a href="https://github.com/Cartulo/Exercicios/tree/main/Aperfeicoamento">🔎Explore the documentation »</a></p>
+</div>
 
 ---
 
-**[Exercício 02](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio2.html)** - Crie uma função que recebe 2 parâmetros e retorna a soma deles.
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio1.html">Exercise 01</a> - Create two buttons in the HTML called: "Green" and "Red". When clicking on them, the background of the screen must match the color of the clicked button. <br> <br>
+Ex: Clicking the 'Green' button should make the background green.
+</p>
 
 ---
 
-**[Exercício 03](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio3.html)** - Seguindo o que foi feito no exercicio 01, crie uma função que recebe 2 parâmetros e retorna a soma deles, porém caso seja passado um parâmetro vazio ela retorne zero.
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio2.html">Exercise 02</a> - Create a function that takes 2 parameters and returns their sum. 
+</p>
 
 ---
 
-**[Exercício 04](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio4.html)** - Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio3.html">Exercise 03</a> - Following what was done in the previous exercise, create a function that receives 2 parameters and returns their sum, but if an empty parameter is passed it returns zero. 
+</p>
 
 ---
 
-**[Exercício 05](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio5.html)** - Crie uma função que informa se tem os caracteres 'dota' no parâmetro informado, exiba um alert em tela caso seja verdadeiro. \
-\
-Ex: 'lol é melhor que dota' (Afirmação que seria verdadeira) \
-Ex: 'lol é melhor que Dark Souls' (Algo que é obviamente falso)
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio4.html">Exercise 04</a> - Create a function that receives the person's year of birth, informing them if they are of legal age or underage. 
+</p>
 
 ---
 
-**[Exercício 06](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio6.html)** - Peça ao usuário para digitar 5 números em uma caixa de texto. Calcule a média destes números digitados pelo usuário e exiba em uma div.
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio5.html">Exercise 05</a> - Create a function that informs if it has the characters "Dota" in the informed parameter, display an alert on screen if it is true.  <br>
+<br>
+Ex: <code>LOL is better than Dota</code> //true <br>
+Ex: <code>LOL is better than Dark Souls</code> //false <br>
+</p>
 
 ---
 
-**[Exercício 07](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio7.html)** - Crie o seguinte array: var deuses = ['Odin', 'Loki', 'Thor'] \
-E Exiba a quantidade/comprimento que ele tem com a função .length
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio6.html">Exercise 06</a> - Ask the user to enter 5 numbers in a text box. <br>
+Calculate the average of these numbers entered by the user and display in a div. 
+</p>
 
 ---
 
-**[Exercício 08](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio8.html)** - Com o que foi feito no exercício anterior, exiba todos os nomes, dentro do html: `<ul id="nomes"></ul>`
-
-Exemplo:
-
-#### **Deuses Nórdicos**
-
-Odin \
-Loki \
-Thor
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio7.html">Exercise 07</a> - Create the following array:  <code>var deuses = ['Odin', 'Loki', 'Thor']</code> and display its length with the function <code>.length</code>
+</p>
 
 ---
 
-**[Exercício 09](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio9.html)** - Seguindo do exercício 02, adicione o .sort para filtrar o array exibido no HTML alfabeticamente.
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio8.html">Exercise 08</a> - With what was done in the previous exercise, display all the names, inside the HTML: 
+<code>
+&ltul id="names">&lt/ul>
+</code> <br>
+Example:
+<ul id="names">
+    <li>Odin</li>
+    <li>Loki</li>
+    <li>Thor</li>
+</ul>
+</p>
 
 ---
 
-**[Exercício 10](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio10.html)** - Exiba a quantidade de letras que possue o texto inserido ao clicar no botão.
-
-Exemplos de entrada e saída: \
-'Caio' // 4 \
-'Felipe' // 6 \
-'Roberto' // 7 \
-'Tiago' // 5
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio9.html">Exercise 09</a> - Following exercise 08, add the <code>.sort</code> to filter the array displayed in the HTML alphabetically. 
+</p>
 
 ---
 
-**[Exercício 11](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio11.html)** - Dentro da div com o id 'resultado', escreva 1x ('Repetição'). \
-Dica: `'innerHTML', el.innerHTML = 'Repetição';`
-
-[11.1](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio11.1.html) - Dentro da div com o id 'resultado', escreva 2x ('Repetição'). \
-[11.2](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio11.2.html) - Dentro da div com o id 'resultado', escreva 20x ('Repetição'). (use o 'for') \
-[11.3](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio11.3.html) - Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com forEach) \
-[11.4](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio11.4.html) - Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com while)
-
----
-
-**[Exercício 12](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio12.html)** - Dentro da div com o id 'resultado', escreva os números de 0 ~ 10 (escolha uma das opções utilizado no exercício anterior)
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio10.html">Exercise 10</a> - Create a function that displays the number of letters that have the text entered to the click on a button. <br> <br>
+Input and Output Examples: <br>
+'Caio' // 4 <br>
+'Felipe' // 6 <br>
+'Roberto' // 7 <br>
+'James' // 5
+</p>
 
 ---
 
-**[Exercício 13](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio13.html)** - Dentro da div com o id 'resultado', escreva os números pares até 20... (ex 2,4,6...20)
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio11.html">Exercise 11</a> - Inside the div with id 'result', type 1x ('Repeat '). <br>
+Hint: <code>'innerHTML', el.innerHTML = 'Repeat';</code> <br>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio11.1.html">11.1</a> - Inside the div with id 'result', type 2x ('Repeat'). <br> 
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio11.2.html">11.2</a> - Inside the div with id 'result', type 20x ('Repeat'). (use the 'for') <br>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio11.3.html">11.3</a> - Inside the div with id 'result', type 5x ('Repeat'). (now with 'forEach') <br>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio11.4.html">11.4</a> - Inside the div with id 'result', type 5x ('Repat'). (now with 'while')
+</p>
 
 ---
 
-**Exercício 14** - A partir do seguinte vetor e utilizando os métodos de array (map, reduce, filter e find):
-
-```
-const usuarios = [
- { nome: 'Caio', idade: 25, empresa: 'Google' },
- { nome: 'Tiago', idade: 35, empresa: 'Microsoft' },
- { nome: 'Felipe', idade: 30, empresa: 'Apple' },
-];
-```
-
-**[14.1](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio14.1.html)** Utilizando o **[map](https://www.w3schools.com/jsref/jsref_map.asp)** \
-Crie uma variável que contenha todas idades dos usuários: [23, 15, 30] \
-**[14.2](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio14.2.html)** Utilizando o **[filter](https://www.w3schools.com/jsref/jsref_filter.asp)** \
-Crie uma variáveis que tenha apenas os usuários que trabalham na Apple e com mais de 30 anos: `[{ nome: 'Felipe', idade: 30, empresa: 'Apple' }}]` \
-**[14.3](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio14.3.html)** Utilizando o **[find](https://www.w3schools.com/JSREF/jsref_find.asp)** \
-Crie uma variável que procura por um usuário que trabalhe na empresa Google: `undefined`
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio12.html">Exercise 12</a> - Inside the div with the id 'result', write the numbers of 0 ~ 10 (choose one of the options used in the previous exercise)
+</p>
 
 ---
 
-**[Exercício 15/Projeto 01](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio15.html)** -
-Faça uma tela que contenha os seguintes campos: \
-![](https://github.com/Cartulo/Exercicios/blob/main/img/projeto1.png) \
-O SELECT deve ser preenchida com as opções que há na API informada, ao clicar no SUBMIT a API será chamada e o response dela será mostrado na tela como no exemplo acima. O valor que deve ser utilizado do responde é ‘high’. Como no exemplo de response abaixo:
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio13.html">Exercise 13</a> - Inside the div with the id 'result', write the even numbers up to 20. <br>
+Ex: 2, 4, 6, [...], 20.
+</p>
 
-```
-USD: {
+---
+
+<p>
+<input type="checkbox" checked>
+Exercise 14 - From the following vector and using the array methods (map, reduce, filter and find):
+</p>
+<pre>
+<code>const users = [
+ { name: 'Caio', age: 25, company: 'Google' },
+ { name: 'Tiago', age: 35, company: 'Microsoft' },
+ { name: 'Felipe', age: 30, company: 'Apple' },
+];</code>
+</pre>
+<p>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Improvement/Exercicio14.1.html">14.1</a> Using <a href="https://www.w3schools. com/jsref/jsref_map.asp">map</a><br>
+Create a variable that contains all user ages: [23, 15, 30] <br><br>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio14.2.html">14.2</a>
+Using the <a href="https://www.w3schools.com/jsref/jsref_filter.asp">filter</a><br>
+Create a variable that has only Apple users over 30: <code>[{ name: 'Felipe', age: 30, company: 'Apple' }}]</code> <br>< br>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Improvement/Exercicio14.3.html">14.3</a> Using <a href="https://www.w3schools. com/JSREF/jsref_find.asp">find</a><br>
+Create a variable that looks for a user who works at the Google company: <code>undefined</code>
+</p>
+
+---
+
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio15.html">Exercise 15</a> - Make a screen that contains the following fields: <br>
+<img src="https://github.com/Cartulo/Exercicios/blob/main/img/aperfeicoamento-ex15.png"> <br>
+The <code>SELECT</code> must be filled with the options that are in the informed API, when clicking on the <code>SUBMIT</code> the API will be called and its response will be shown on the screen as in the example above. The value that should be used from the response is <code>high</code>. As in the response example below:
+<pre>
+<code>USD: {
 code: "USD",
 codein: "BRL",
-name: "Dólar Comercial",
-high: "3,8906",
-low: "3,8596",
-varBid: "-0,0138",
-pctChange: "-0,36",
-bid: "3,8660",
-ask: "3,8680",
+name: "Commercial Dollar",
+high: "3.8906",
+low: "3.8596",
+varBid: "-0.0138",
+pctChange: "-0.36",
+bid: "3.8660",
+ask: "3.8680",
 timestamp: "1555360069",
 create_date: "2019-04-15 17:27:50"
-},
-```
-
-API a ser ultizada: https://docs.awesomeapi.com.br/api-de-moedas
-
-Dica: verifique o método que requisição POST ou GET na documentação da API.
+},</code>
+</pre>
+API to be used: https://docs.awesomeapi.com.br/api-de-moedas <br>
+Tip: Check the method that requests POST or GET in the API documentation.
+</p>
 
 ---
 
-**[Exercício 16/Projeto 02](https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio16.html)** - Neste projeto você precisará construir uma tela para pesquisa de CEP, que no momento que o cliente inserir o CEP dele deverá retornar o seu endereço completo.
-
-**01 -Construa uma tela que contenha os seguintes campos:** \
-![](https://github.com/Cartulo/Exercicios/blob/main/img/projeto2pt1.png) \
-OBS: O input deve aceitar somente números.
-
-**02 - ao clicar no SUBMIT a API será chamada e o response dela será mostrado na tela como no exemplo abaixo:** \
-![](https://github.com/Cartulo/Exercicios/blob/main/img/projeto2pt2.png)
-
-API: https://docs.awesomeapi.com.br/api-cep
-
-Exemplo de request:
-https://cep.awesomeapi.com.br/json/03375000
-
-Exemplo de response:
-
-```
-{
-    "cep": "03375000",
-    "address_type": "Rua",
-    "address_name": "Hemisfério",
-    "address": "Rua Hemisfério",
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio16.html">Exercise 16</a> - In this project you will need to build a ZIP code search screen, which at the moment the customer to enter his zip code must return his full address. <br> <br>
+<strong>01 - Build a screen containing the following fields:</strong><br>
+<img src="https://github.com/Cartulo/Exercicios/blob/main/img/aperfeicoamento-ex16-img1.png" /> <br>
+NOTE: The input must accept only numbers. <br> <br>
+<strong>02 - When clicking on <code>SUBMIT</code> the API will be called and its response will be shown on the screen as in the example below:</strong><br>
+<img src="https://github.com/Cartulo/Exercicios/blob/main/img/aperfeicoamento-ex16-img2.png" /> <br>
+API: https://docs.awesomeapi.com.br/api-cep <br> <br>
+Request example: https://cep.awesomeapi.com.br/json/03375000 <br>
+Response example:
+<pre>
+<code>{
+    "zip code": "03375000",
+    "address_type": "Street",
+    "address_name": "Hemisphere",
+    "address": "Hemisphere Street",
     "state": "SP",
     "district": "Chácara Belenzinho",
     "lat": "-23.5727636",
@@ -157,5 +197,7 @@ Exemplo de response:
     "city": "São Paulo",
     "city_ibge": "3550308",
     "ddd": "11"
-}
-```
+}</code>
+</pre> 
+</body>
+</html>
