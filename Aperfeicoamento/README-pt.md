@@ -1,18 +1,13 @@
-<html>
-<body>
-<div style="text-align: center">
-    <h1>📈 Aperfeiçoamento</h1>
-    <p>Aqui temos uma pasta semelhante a <a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/README-pt.md">HTML e JS</a>, divirta-se resolvendo os exercícios 😅</p>
-    <p style="text-align: center"><a href="https://github.com/Cartulo/Exercicios/tree/main/Aperfeicoamento">🔎Explore a documentação »</a></p>
-</div>
+    <h1 align="center">📈 Aperfeiçoamento</h1>
+    <p align="center">Aqui temos uma pasta semelhante a <a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/README-pt.md">HTML e JS</a>, divirta-se resolvendo os exercícios 😅<br />
+    <a href="https://github.com/Cartulo/Exercicios/tree/main/Aperfeicoamento">🔎Explore a documentação »</a></p>
 
 ---
 
-<p>
-<input type="checkbox" checked>
-<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio1.html">Exercício 01</a> - Crie dois botões no HTML chamados: "Verde" e "Vermelho". Ao clicar neles o fundo da tela deve ser respectivo à cor do botão clicado. <br> <br>
-Ex: Clicar no botão 'Verde' deve deixar o fundo da cor verde.
-</p>
+- [x] <p>
+                        <a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio1.html">Exercício 01</a> - Crie dois botões no HTML chamados: "Verde" e "Vermelho". Ao clicar neles o fundo da tela deve ser respectivo à cor do botão clicado. <br> <br>
+                        Ex: Clicar no botão 'Verde' deve deixar o fundo da cor verde.
+                        </p>
 
 ---
 
@@ -199,5 +194,3 @@ Exemplo de response:
     "ddd": "11"
 }</code>
 </pre>
-</body>
-</html>
