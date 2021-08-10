@@ -1,10 +1,12 @@
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/cartulo/exercicios?style=for-the-badge&color=00aeae">
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/cartulo/exercicios?style=for-the-badge&color=00aeae">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cartulo/exercicios?style=for-the-badge&color=00aeae">
-<img alt="GitHub forks" src="https://img.shields.io/github/forks/cartulo/exercicios?style=for-the-badge&color=00aeae">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cartulo/exercicios?style=for-the-badge&color=00aeae">
-<a href="https://linkedin.com/in/gil-tulo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"/></a>
-<br><br>
+<div>
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/cartulo/exercicios?style=for-the-badge&color=00aeae">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/cartulo/exercicios?style=for-the-badge&color=00aeae">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cartulo/exercicios?style=for-the-badge&color=00aeae">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/cartulo/exercicios?style=for-the-badge&color=00aeae">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cartulo/exercicios?style=for-the-badge&color=00aeae">
+    <a href="https://linkedin.com/in/gil-tulo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"/></a>
+    <br><br>
+</div>
 
 <h1 align="center">🏋️ Exercises</h1>
 <p align="center">Repository where I publish exercises I've solved, you can use them to train if you want. 😄 <br />
@@ -72,7 +74,7 @@
 <p>Distributed under the MIT License. See <a href="https://github.com/CarTulo/Exercicios/blob/master/LICENSE.txt">LICENSE</a> for more information.</p>
 
 <h1>Contact</h1>
-<p>Gilberto Júnior - <a href="linkedin.com/in/gil-tulo/" target="_blank">LinkedIn</a> - <a href="mailto:contato.gil.tulo@gmail.com">contato.gil.tulo@gmail.com</a></p>
+<p>Gilberto Júnior - <a href="https://linkedin.com/in/gil-tulo/" target="_blank">LinkedIn</a> - <a href="mailto:contato.gil.tulo@gmail.com">contato.gil.tulo@gmail.com</a></p>
 <p>Project Link: <a href="https://github.com/Cartulo/Exercicios#readme">https://github.com/Cartulo/Exercicios</a></p>
 
 <h1>Acknowledgements</h1>

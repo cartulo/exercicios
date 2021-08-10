@@ -1,10 +1,12 @@
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/cartulo/exercicios?style=for-the-badge&color=00aeae">
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/cartulo/exercicios?style=for-the-badge&color=00aeae">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cartulo/exercicios?style=for-the-badge&color=00aeae">
-<img alt="GitHub forks" src="https://img.shields.io/github/forks/cartulo/exercicios?style=for-the-badge&color=00aeae">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cartulo/exercicios?style=for-the-badge&color=00aeae">
-<a href="https://linkedin.com/in/gil-tulo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"/></a>
-<br><br>
+<div>
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/cartulo/exercicios?style=for-the-badge&color=00aeae">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/cartulo/exercicios?style=for-the-badge&color=00aeae">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cartulo/exercicios?style=for-the-badge&color=00aeae">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/cartulo/exercicios?style=for-the-badge&color=00aeae">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cartulo/exercicios?style=for-the-badge&color=00aeae">
+    <a href="https://linkedin.com/in/gil-tulo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"/></a>
+    <br><br>
+</div>
 
 <h1 align="center">🏋️ Exercícios</h1>
 <p align="center">Repositório onde publico exercícios que resolvi, você pode usá-los para treinar se quiser.  😄 <br />
@@ -24,7 +26,7 @@
         <ul>
             <li><a href=#html-e-js>HTML e JS</a></li>
             <li><a href=#aperfeiçoamento>Aperfeiçoamento</a></li>
-            <li><a href=#java-basico>Java Básico</a></li>
+            <li><a href=#java-básico>Java Básico</a></li>
         </ul>
     <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#contribuindo">Contribuindo</a></li>
     <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#contato">Contato</a></li>
@@ -82,7 +84,7 @@ Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blo
 
 </p>
 <h1>Contato</h1>
-<p>Gilberto Júnior - <a href="linkedin.com/in/gil-tulo/" target="_blank">LinkedIn</a> - <a href="mailto:contato.gil.tulo@gmail.com">contato.gil.tulo@gmail.com</a></p>
+<p>Gilberto Júnior - <a href="https://linkedin.com/in/gil-tulo/" target="_blank">LinkedIn</a> - <a href="mailto:contato.gil.tulo@gmail.com">contato.gil.tulo@gmail.com</a></p>
 <p>Link do Projeto: <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md">https://github.com/Cartulo/Exercicios/blob/main/README-pt.md</a></p>
 
 <h1>Agradecimentos</h1>
