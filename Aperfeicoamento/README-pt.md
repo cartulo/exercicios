@@ -4,10 +4,11 @@
 
 ---
 
-- [x] <p>
-                        <a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio1.html">Exercício 01</a> - Crie dois botões no HTML chamados: "Verde" e "Vermelho". Ao clicar neles o fundo da tela deve ser respectivo à cor do botão clicado. <br> <br>
-                        Ex: Clicar no botão 'Verde' deve deixar o fundo da cor verde.
-                        </p>
+<p>
+<input type="checkbox" checked>
+<a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/exercicio1.html">Exercício 01</a> - Crie dois botões no HTML chamados: "Verde" e "Vermelho". Ao clicar neles o fundo da tela deve ser respectivo à cor do botão clicado. <br> <br>
+Ex: Clicar no botão 'Verde' deve deixar o fundo da cor verde.
+</p>
 
 ---
 
