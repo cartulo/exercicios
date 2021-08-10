@@ -1,10 +1,6 @@
-<html>
-<body>
-<div style="text-align: center">
-    <h1>☕ Java Básico</h1>
-    <p>Aqui ficam exercícios básicos que estamos fazendo, espero que sirva de base para vocês na linguagem.</p>
-    <p style="text-align: center"><a href="https://github.com/Cartulo/Exercicios/tree/main/HTML%20e%20JS">🔎Explore a documentação »</a></p>
-</div>
+<h1 align="center">☕ Java Básico</h1>
+<p align="center">Aqui ficam exercícios básicos que estamos fazendo, espero que sirva de base para vocês na linguagem.<br />
+<a href="https://github.com/Cartulo/Exercicios/tree/main/HTML%20e%20JS">🔎 Explore a documentação »</a></p>
 
 <h1>📝 Lista de Exercícios</h1>
 <p>

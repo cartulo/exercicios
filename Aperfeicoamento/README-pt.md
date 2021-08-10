@@ -1,6 +1,6 @@
-    <h1 align="center">📈 Aperfeiçoamento</h1>
-    <p align="center">Aqui temos uma pasta semelhante a <a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/README-pt.md">HTML e JS</a>, divirta-se resolvendo os exercícios 😅<br />
-    <a href="https://github.com/Cartulo/Exercicios/tree/main/Aperfeicoamento">🔎Explore a documentação »</a></p>
+<h1 align="center">📈 Aperfeiçoamento</h1>
+<p align="center">Aqui temos uma pasta semelhante a <a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/README-pt.md">HTML e JS</a>, divirta-se resolvendo os exercícios 😅<br />
+<a href="https://github.com/Cartulo/Exercicios/tree/main/Aperfeicoamento">🔎 Explore a documentação »</a></p>
 
 ---
 

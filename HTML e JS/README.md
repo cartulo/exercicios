@@ -1,10 +1,6 @@
-<html>
-<body>
-<div style="text-align: center">
-    <h1>📝 HTML and JavaScript</h1>
-    <p>Here I have five separate HTML and JavaScript exercises. </p>
-    <p style="text-align: center"><a href="https://github.com/Cartulo/Exercicios/tree/main/HTML%20e%20JS">🔎Explore the docs »</a></p>
-</div>
+<h1 align="center">📝 HTML and JavaScript</h1>
+<p align="center">Here I have five separate HTML and JavaScript exercises. <br />
+<a href="https://github.com/Cartulo/Exercicios/tree/main/HTML%20e%20JS">🔎 Explore the docs »</a></p>
 
 <h1>📝 Exercise List</h1> 
 <p>
@@ -71,5 +67,3 @@ Header: Token for authentication to the service. Get from the return of the logi
 Authorization = Bearer <br>
 eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjVjNDYxMmM4ZGY3NWVkZmY0ZmJlNDlmZCJ9.gw8v8xd2XqhmBjG 83hw2JTncXsLg9n3bzo9sob
 </p>
-</body>
-</html>

@@ -1,15 +1,11 @@
-<html>
-<body>
-<div style="text-align: center">
-    <h1>☕ Basic Java</h1>
-    <p>Here are the basic exercises we are doing, I hope it will serve as a basis for you in the language.</p>
-    <p style="text-align: center"><a href="https://github.com/Cartulo/Exercicios/tree/main/HTML%20e%20JS">🔎Explore the documentation »</a></p>
-</div>
+<h1 align="center">☕ Basic Java</h1>
+<p align="center">Here are the basic exercises we are doing, I hope it will serve as a basis for you in the language.<br />
+<a href="https://github.com/Cartulo/Exercicios/tree/main/HTML%20e%20JS">🔎 Explore the documentation »</a></p>
 
 <h1>📝 Exercise List</h1>
 <p>
 <input type="checkbox" checked>
-<a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio1-basico.html">PA and PG calculator</a> - At first I created it just for In training, I just made the calculator solve Arithmetic Progression step-by-step given some values ​​and then implemented the solving for Geometric Progression as well.
+<a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/exercicio1-basico.html">AP and GP calculator</a> - At first I created it just for In training, I just made the calculator solve Arithmetic Progression step-by-step given some values ​​and then implemented the solving for Geometric Progression as well.
 </p>
 
 ---

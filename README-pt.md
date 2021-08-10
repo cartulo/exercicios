@@ -1,34 +1,31 @@
-<html>
-<head>
-</head>
-<body>
-<div style="text-align: center">
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/cartulo/exercicios?style=for-the-badge&color=00aeae">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/cartulo/exercicios?style=for-the-badge&color=00aeae">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cartulo/exercicios?style=for-the-badge&color=00aeae">
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/cartulo/exercicios?style=for-the-badge&color=00aeae">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cartulo/exercicios?style=for-the-badge&color=00aeae">
-<br>
-<a href="https://linkedin.com/in/gil-tulo"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"/></a>
+<a href="https://linkedin.com/in/gil-tulo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"/></a>
 <br><br>
 
-<h1>🏋️ Exercícios</h1>
-<p>Repositório onde publico exercícios que resolvi, você pode usá-los para treinar se quiser.  😄 </p>
-<p><a href="https://github.com/cartulo/exercicios">🔎Explore a documentação »</a></p>
-<p>Read the English version of this README <a href="https://github.com/cartulo/exercicios#readme">HERE</a></p>
-<p>
-🚧 Ver demonstrativo (Em construção) 🚧
-·
-<a href="https://github.com/cartulo/exercicios/issues">Reporte um problema</a>
-·
-<a href="https://github.com/cartulo/exercicios/issues">Solicite um recurso</a>
+<h1 align="center">🏋️ Exercícios</h1>
+<p align="center">Repositório onde publico exercícios que resolvi, você pode usá-los para treinar se quiser.  😄 <br />
+    <a href="https://github.com/cartulo/exercicios">🔎 Explore a documentação »</a><br />
+    Read the English version of this README <a href="https://github.com/cartulo/exercicios#readme">HERE</a> <br />
+    🚧 Ver demonstrativo (Em construção) 🚧
+    ·
+    <a href="https://github.com/cartulo/exercicios/issues">Reporte um problema</a>
+    ·
+    <a href="https://github.com/cartulo/exercicios/issues">Solicite um recurso</a>
 </p>
-</div>
 <details open>
 <summary>Índice</summary>
 <ol>
     <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#sobre-este-projeto">Sobre este projeto</a></li>
     <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#roteiro">Roteiro</a></li>
+        <ul>
+            <li><a href=#html-e-js>HTML e JS</a></li>
+            <li><a href=#aperfeiçoamento>Aperfeiçoamento</a></li>
+            <li><a href=#java-basico>Java Básico</a></li>
+        </ul>
     <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#contribuindo">Contribuindo</a></li>
     <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#contato">Contato</a></li>
     <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#agradecimentos">Agradecimentos</a></li>
@@ -45,7 +42,7 @@ Existem muitos exercícios disponíveis na internet, principalmente no GitHub. N
     <li>Eu realmente acho divertido fazer isso 🤣</li>
 </ul>
 <p> 
-    Você também pode sugerir exercícios enviando-me uma mensagem por qualquer meio presente na guia <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#contato">Contatos</a>. Além de me dar os exercícios, você pode resolvê-los de uma maneira melhor, basta fazer um fork deste repositório e criar um pull request ou abrir um issue. Obrigado a todos que contribuíram para expandir este mesmo repositório! 🎉
+    Você também pode sugerir exercícios enviando-me uma mensagem por qualquer meio presente na guia <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#contato">contato</a>. Além de me dar os exercícios, você pode resolvê-los de uma maneira melhor, basta fazer um fork deste repositório e criar um pull request ou abrir um issue. Obrigado a todos que contribuíram para expandir este mesmo repositório! 🎉
  </p>
 
 <h1>Roteiro</h1>
@@ -53,14 +50,14 @@ Existem muitos exercícios disponíveis na internet, principalmente no GitHub. N
 <p>Aqui estão exercícios que abrangem HTML e JavaScript.  <br>
 Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/README-pt.md">CLIQUE AQUI</a>.</p>
 
-<h2>Aperfeiçoamento </h2>
+<h2>Aperfeiçoamento</h2>
 <p>
 Nada mais do que um reforço de <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#html-e-js">HTML e JavaScript</a>, com exercícios que trazem uma ideia de situação-problema, como se estivéssemos montando um projeto no cotidiano de um programador. <br>
 Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/README-pt.md">CLIQUE AQUI</a>.</p>
 
 <h2>Java Básico</h2>
 <p>Eu sou muito novo em Java, então espero que esses exercícios também sirvam como uma base introdutória sobre a linguagem. <br>
-Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blob/main/Java%20Basico/README.md">CLIQUE AQUI</a>.</p>
+Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blob/main/Java%20Basico/README-pt.md">CLIQUE AQUI</a>.</p>
 
 <h1>Contribuindo</h1>
 <p>
@@ -85,7 +82,7 @@ Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blo
 
 </p>
 <h1>Contato</h1>
-<p>Gilberto Júnior - <a href="linkedin.com/in/gil-tulo/">LinkedIn</a> - <a href="mailto:contato.gil.tulo@gmail.com">contato.gil.tulo@gmail.com</a></p>
+<p>Gilberto Júnior - <a href="linkedin.com/in/gil-tulo/" target="_blank">LinkedIn</a> - <a href="mailto:contato.gil.tulo@gmail.com">contato.gil.tulo@gmail.com</a></p>
 <p>Link do Projeto: <a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md">https://github.com/Cartulo/Exercicios/blob/main/README-pt.md</a></p>
 
 <h1>Agradecimentos</h1>
@@ -100,5 +97,3 @@ Para informações detalhadas <a href="https://github.com/Cartulo/Exercicios/blo
     <li><a href="https://pt.wikipedia.org/wiki/Bifurcação_(desenvolvimento_de_software)">Sobre Fork</a></li>
     <li><a href="https://gist.github.com/victorsenam/8580499">Sobre Branch, Commit e Pull Request</a></li>
 </ul>
-</body>
-</html>

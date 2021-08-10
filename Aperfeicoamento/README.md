@@ -1,10 +1,6 @@
-<html>
-<body>
-<div style="text-align: center">
-    <h1>📈 Improvement</h1>
-    <p>Here we have a folder similar to <a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS#README.md">HTML and JS</a>, enjoy yourself solving the exercises 😅</p>
-    <p style="text-align: center"><a href="https://github.com/Cartulo/Exercicios/tree/main/Aperfeicoamento">🔎Explore the documentation »</a></p>
-</div>
+<h1 align="center">📈 Improvement</h1>
+<p align="center">Here we have a folder similar to <a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS#README.md">HTML and JS</a>, enjoy yourself solving the exercises 😅<br />
+<a href="https://github.com/Cartulo/Exercicios/tree/main/Aperfeicoamento">🔎 Explore the documentation »</a></p>
 
 ---
 
@@ -198,6 +194,4 @@ Response example:
     "city_ibge": "3550308",
     "ddd": "11"
 }</code>
-</pre> 
-</body>
-</html>
+</pre>

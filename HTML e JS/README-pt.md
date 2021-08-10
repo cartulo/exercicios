@@ -1,10 +1,6 @@
-<html>
-<body>
-<div style="text-align: center">
-    <h1>📝 HTML e JavaScript</h1>
-    <p>Aqui eu tenho cinco exercícios separados de HTML e JavaScript.</p>
-    <p style="text-align: center"><a href="https://github.com/Cartulo/Exercicios/tree/main/HTML%20e%20JS">🔎Explore a documentação »</a></p>
-</div>
+<h1 align="center">📝 HTML e JavaScript</h1>
+<p align="center">Aqui eu tenho cinco exercícios separados de HTML e JavaScript.<br />
+<a href="https://github.com/Cartulo/Exercicios/tree/main/HTML%20e%20JS">🔎 Explore a documentação »</a></p>
 
 <h1>📝 Lista de Exercícios</h1>
 <p>
@@ -69,5 +65,3 @@ Header: Token para autenticação no serviço. Pegar do retorno do login  realiz
 Authorization = Bearer <br>
 eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjVjNDYxMmM4ZGY3NWVkZmY0ZmJlNDlmZCJ9.gw8v8xd2XqhmBjG 83hw2JTncXsLg9n3bzo9sob_I5w4
 </p>
-</body>
-</html>
