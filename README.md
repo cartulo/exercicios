@@ -4,7 +4,7 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cartulo/exercicios?style=for-the-badge&color=00aeae">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/cartulo/exercicios?style=for-the-badge&color=00aeae">
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cartulo/exercicios?style=for-the-badge&color=00aeae">
-    <a href="https://linkedin.com/in/gil-tulo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"/></a>
+    <a href="https://www.linkedin.com/in/gil-vulgo-tulo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"/></a>
     <br><br>
 </div>
 
@@ -51,7 +51,7 @@
     <h2>HTML and JS</h2>
         <p>Here are exercises covering both HTML and JavaScript. <br>
         For detailed information <a href="https://github.com/Cartulo/Exercicios/blob/main/HTML%20e%20JS/README.md">CLICK HERE</a>.</p>
-    <h2>Improvement </h2>
+    <h2>Improvement</h2>
         <p>Nothing more than a reinforcement of <a href="https://github.com/cartulo/exercicios#HTML-and-JS">HTML and JavaScript</a>, with exercises bringing an idea of the problem situation, as if we were putting together a project in the daily life of a programmer <br>
         For detailed information <a href="https://github.com/Cartulo/Exercicios/blob/main/Aperfeicoamento/README.md">CLICK HERE</a>.</p>
     <h2>Basic Java</h2>
@@ -74,7 +74,7 @@
 <p>Distributed under the MIT License. See <a href="https://github.com/CarTulo/Exercicios/blob/master/LICENSE.txt">LICENSE</a> for more information.</p>
 
 <h1>Contact</h1>
-<p>Gilberto Júnior - <a href="https://linkedin.com/in/gil-tulo/" target="_blank">LinkedIn</a> - <a href="mailto:contato.gil.tulo@gmail.com">contato.gil.tulo@gmail.com</a></p>
+<p>Gilberto Júnior - <a href="https://linkedin.com/in/gil-vulgo-tulo/" target="_blank">LinkedIn</a> - <a href="mailto:contato.gil.tulo@gmail.com">contato.gil.tulo@gmail.com</a></p>
 <p>Project Link: <a href="https://github.com/Cartulo/Exercicios#readme">https://github.com/Cartulo/Exercicios</a></p>
 
 <h1>Acknowledgements</h1>
