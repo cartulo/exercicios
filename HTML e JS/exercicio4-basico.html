@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04</title>
+</head>
+
 <!-- 04 – Utilizando o objeto Javascript “XMLHttpRequest” realizar o POST do recurso  “usuario“ para autenticação na API REST. O objeto JSON “JavaScript Object  Notation” -->
 
 <body>
-    <form name="Form">
-        Email:
-        <input type="text" value="fschorles@teste.com" name="email" /> <br><br>
-        Password:
-        <input type="text" value="123456" name="password" /> <br><br>
-        <button onclick="envio(event)">Enviar Formulario</button>
+    <form onsubmit="onSubmit(event)" name="Form">
+        <label for="email">Email:</label>
+        <input type="text" value="fschorles@teste.com" name="fEmail" /> <br><br>
+
+        <label for="password">Senha:</label>
+        <input type="text" value="123456" name="fPassword" /> <br><br>
+
+        <input type="submit" value="Enviar"></button>
         <button><a href="exercicio5-basico.html">Registro</a></button> <br><br>
     </form>
     <script>
-        const envio = (e) => {
-
+        function onSubmit(e) {
             e.preventDefault();
-            var a = document.forms["Form"]["email"];
-            var b = document.forms["Form"]["password"];
-            var mytoken = localStorage.getItem("token");
+
+            var email = document.forms["Form"]["fEmail"];
+            var password = document.forms["Form"]["fPassword"];
+            var myToken = localStorage.getItem("token");
             var request = new XMLHttpRequest();
 
             request.open("POST", "http://52.91.139.190/fsapi/users/login");
@@ -25,19 +35,14 @@
             request.setRequestHeader("Content-type", "application/json");
             request.setRequestHeader("Authorization", "mytoken");
 
-            request.onreadystatechange = () => {
-                if (request.readyState == 4 && request.status == 200) {
-                }
-            };
-
+            // FIXME :: Talvez não tenhamos de passar token no corpo da requisição
             const body = JSON.stringify({
-                "email": a.value,
-                "password": b.value,
-                "token": mytoken
+                "email": email.value,
+                "password": password.value,
+                "token": myToken
             })
 
             request.send(body);
-            console.log("body:", body);
         }
     </script>
 </body>

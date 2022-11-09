@@ -1,22 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
-<!-- Ex 01 – Criar uma página HTML que contenha um formulário com os campos nome,  pontos, nota, universidade, empresas, avatars, horários. 
-Podem utilizar o  elemento input type text do form HTML para esses campos. 
-Além disso criem um  botão type submit. -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
 </head>
+
+<!-- TASK :: Ex 01 – Criar uma página HTML que contenha um formulário com os campos nome,  pontos, nota, universidade, empresas, avatars, horários. 
+                     Podem utilizar o  elemento input type text do form HTML para esses campos. 
+                     Além disso criem um  botão type submit. -->
+
 <body>
-    <form name="Form" onsubmit="return validaForm()">
-        <!-- Colocar action="/página-aqui.linguagem" -->
-        Nome: <input type="text" id="nome" value=""><br><br>
-        Pontos: <input type="text" id="pontos" value="" /> <br> <br>
-        Nota: <input type="text" id="nota" value="" /> <br> <br>
-        Universidade: <input type="text" id="universidade" value="" /> <br> <br>
-        Empresas: <input type="text" id="empresas" value="" /> <br> <br>
-        Avatars: <input type="text" id="avatars" value="" /> <br> <br>
-        Horários: <input type="text" id="horas" value="" /> <br> <br>
-        <input type="submit" value="Submit">
+    <!-- TODO :: Colocar action="/página-aqui.linguagem" -->
+    <form name="Form" onsubmit="return onSubmit()">
+        <label for="nome">Nome:</label>
+        <input type="text" id="fNome" name="fNome"><br><br>
+
+        <label for="pontos">Pontos:</label>
+        <input type="text" id="fPontos" name="fPontos"><br><br>
+
+        <label for="nota">Nota:</label>
+        <input type="text" id="fNota" name="fNota"><br><br>
+
+        <label for="universidade">Universidade:</label>
+        <input type="text" id="fUniversidade" name="fUniversidade"><br><br>
+
+        <label for="empresas">Empresas:</label>
+        <input type="text" id="fEmpresas" name="fEmpresas"><br><br>
+
+        <label for="avatars">Avatars:</label>
+        <input type="text" id="fAvatars" name="fAvatars"><br><br>
+
+        <label for="horarios">Horarios:</label>
+        <input type="text" id="fHorarios" name="fHorarios"><br><br>
+
+        <input type="submit" value="Enviar">
     </form>
 </body>
 

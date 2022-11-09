@@ -1,35 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
-<!-- Ex 02 – Crie uma função Javascript que permita validar o formulário criado no  exercício 01 quanto a obrigatoriedade dos campos para submit do form no botão  submit. -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 02</title>
+
     <script>
-        function validaForm() {
-            nome = document.getElementById("nome").value;
-            pontos = document.getElementById("pontos").value;
-            nota = document.getElementById("nota").value;
-            univ = document.getElementById("universidade").value;
-            empr = document.getElementById("empresas").value;
-            avat = document.getElementById("avatars").value;
-            hora = document.getElementById("horas").value;
-            if (nome == "" || pontos == "" || nota == "" || univ == "" || empr == "" || avat == "" || hora == "") {
+        function onSubmit() {
+            nome = document.getElementById("fNome").value;
+            pontos = document.getElementById("fPontos").value;
+            nota = document.getElementById("fNota").value;
+            universidades = document.getElementById("fUniversidade").value;
+            empresas = document.getElementById("fEmpresas").value;
+            avatars = document.getElementById("fAvatars").value;
+            horarios = document.getElementById("fHorarios").value;
+
+            if (nome == ""
+                || pontos == ""
+                || nota == ""
+                || univ == ""
+                || empr == ""
+                || avat == ""
+                || hora == "") {
                 alert("Todos campos devem ser preenchidos!");
                 return false;
             }
+
         }
     </script>
 </head>
+
+<!-- TASK :: Ex 02 – Crie uma função Javascript que permita validar o formulário criado no  exercício 01 quanto a obrigatoriedade dos campos para submit do form no botão  submit. -->
+
+
 <body>
-    <form name="Form" onsubmit="return validaForm()">
-        <!-- Colocar action="/página-aqui.linguagem" -->
-        Nome: <input type="text" id="nome" value=""><br><br>
-        Pontos: <input type="text" id="pontos" value="" /> <br> <br>
-        Nota: <input type="text" id="nota" value="" /> <br> <br>
-        Universidade: <input type="text" id="universidade" value="" /> <br> <br>
-        Empresas: <input type="text" id="empresas" value="" /> <br> <br>
-        Avatars: <input type="text" id="avatars" value="" /> <br> <br>
-        Horários: <input type="text" id="horas" value="" /> <br> <br>
-        <input type="submit" value="Submit">
+    <form name="Form" onsubmit="return onSubmit()">
+        <label for="nome">Nome:</label>
+        <input type="text" id="fNome" name="fNome"><br><br>
+
+        <label for="pontos">Pontos:</label>
+        <input type="text" id="fPontos" name="fPontos"><br><br>
+
+        <label for="nota">Nota:</label>
+        <input type="text" id="fNota" name="fNota"><br><br>
+
+        <label for="universidade">Universidade:</label>
+        <input type="text" id="fUniversidade" name="fUniversidade"><br><br>
+
+        <label for="empresas">Empresas:</label>
+        <input type="text" id="fEmpresas" name="fEmpresas"><br><br>
+
+        <label for="avatars">Avatars:</label>
+        <input type="text" id="fAvatars" name="fAvatars"><br><br>
+
+        <label for="horarios">Horarios:</label>
+        <input type="text" id="fHorarios" name="fHorarios"><br><br>
+
+        <input type="submit" value="Enviar">
     </form>
 </body>
+
 </html>

@@ -1,76 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- 05 – Após realizar o login considero um diferencial realizar a criação de um  usuário. 
-        A API para esse serviço está protegida por mecanismo para autenticação  baseada em token. -->
-    <meta charset="utf-8" />
-  </head>
 
-  <body>
-    <form name="Form">
-      login:
-      <input type="text" value="contato.gil.tulo@gmail.com" name="login" />
-      <br /><br />
-      name:
-      <input type="text" value="Gilberto Júnior" name="name" /> <br /><br />
-      email:
-      <input type="text" value="contato.gil.tulo@gmail.com" name="email" />
-      <br /><br />
-      password:
-      <input type="text" value="123456" name="password" /> <br /><br />
-      confirma_password:
-      <input type="text" value="123456" name="confirma_password" /> <br /><br />
-      idEmpresa:
-      <input type="text" value="13" name="idEmpresa" /> <br /><br />
-      Status:
-      <input type="text" value="Apovado" name="Status" /> <br /><br />
-      role:
-      <input type="text" value="Client" name="role" /> <br /><br />
-      regId:
-      <input type="text" value="" name="regId" /> <br /><br />
-      status:
-      <input type="text" value="Aprovado" name="status" /> <br /><br />
-      <br /><br />
-      <button onclick="envio(event)">Enviar Formulario</button>
-      <button><a href="exercicio4-basico.html">Login</a></button>
-    </form>
-    <script>
-      const envio = (e) => {
-        e.preventDefault();
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 05</title>
+</head>
 
-        var name = document.forms['Form']['name'];
-        var email = document.forms['Form']['email'];
-        var password = document.forms['Form']['password'];
-        var confirma_password = document.forms['Form']['confirma_password'];
-        var mytoken = localStorage.getItem('token');
+<!-- 05 – Após realizar o login considero um diferencial realizar a criação de um  usuário. 
+          A API para esse serviço está protegida por mecanismo para autenticação  baseada em token. -->
 
-        var request = new XMLHttpRequest();
+<body>
+  <form onsubmit="onSubmit(event)" name="Form">
+    <label for="login">Login:</label>
+    <input type="text" value="contato.gil.tulo@gmail.com" name="fLogin" /> <br /><br />
 
-        request.onreadystatechange = () => {
-          if (request.readyState == 4 && request.status == 200) {
-          }
-        };
+    <label for="nome">Nome:</label>
+    <input type="text" value="Gilberto Júnior" name="fNome" /> <br /><br />
 
-        request.open(
-          'POST',
-          'http://52.91.139.190/fsapi/users/auth/register-jwt'
-        );
+    <label for="email">Email:</label>
+    <input type="text" value="contato.gil.tulo@gmail.com" name="fEmail" /><br /><br />
 
-        request.setRequestHeader('Content-type', 'application/json');
-        request.setRequestHeader('Authorization', 'mytoken');
-        /* request.setRequestHeader("método GET ou POST", "url"); */
+    <label for="password">Senha:</label>
+    <input type="text" value="123456" name="fPassword" /> <br /><br />
 
-        const body = JSON.stringify({
-          name: name.value,
-          email: email.value,
-          password: password.value,
-          confirma_password: confirma_password.value,
-          token: mytoken,
-        });
+    <label for="confirmarPassword">Confirme sua senha:</label>
+    <input type="text" value="123456" name="fConfirmarPassword" /> <br /><br />
 
-        request.send(body);
-        console.log('body:', body);
-      };
-    </script>
-  </body>
+    <label for="empresaId">Identificador da empresa:</label>
+    <input type="text" value="13" name="fEmpresaId" /> <br /><br />
+
+    <label for="status">Status:</label>
+    <input type="text" value="Apovado" name="fStatus" /> <br /><br />
+
+    <label for="role">Cargo:</label>
+    <input type="text" value="Client" name="fRole" /> <br /><br />
+
+    <label for="regId">Identificador reg:</label>
+    <input type="text" value="" name="fRegId" /> <br /><br />
+
+    <input type="submit" value="Enviar"></button>
+    <button><a href="exercicio4-basico.html">Login</a></button>
+  </form>
+
+  <script>
+    function onSubmit(e) {
+      e.preventDefault();
+
+      var nome = document.forms['Form']['fNome'];
+      var email = document.forms['Form']['fEmail'];
+      var password = document.forms['Form']['fPassword'];
+      var confirmarPassword = document.forms['Form']['fConfirmarPassword'];
+      var myToken = localStorage.getItem('token');
+
+      var request = new XMLHttpRequest();
+
+      request.open('POST', 'http://52.91.139.190/fsapi/users/auth/register-jwt');
+
+      request.setRequestHeader('Content-type', 'application/json');
+      request.setRequestHeader('Authorization', 'mytoken');
+
+      const body = JSON.stringify({
+        name: nome.value,
+        email: email.value,
+        password: password.value,
+        confirma_password: confirmarPassword.value,
+        token: myToken,
+      });
+
+      request.send(body);
+    };
+  </script>
+</body>
+
 </html>

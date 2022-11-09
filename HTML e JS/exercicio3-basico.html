@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-<!-- Ex 03 – Transformar os campos “elementos“ da página criada no exercício 01, em  tipos de campos apropriados para o domínio de informação neles contidos.  
-Ex.: o campo “avatars” ao invés de utilizar um “input text” poderia utilizar um  “select” visto que ele pode conter uma lista multivalorada de itens para seleção, o  famoso “combobox”. -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 03</title>
+
     <script>
         function validaForm() {
-            nome = document.getElementById("nome").value;
-            empr = document.getElementById("empresas").value;
-            hora = document.getElementById("horas").value;
-            if (nome == "" || empr == "" || hora == "") {
+            nome = document.getElementById("fNome").value;
+            empresas = document.getElementById("fEmpresas").value;
+            horarios = document.getElementById("fHorarios").value;
+            if (nome == ""
+                || empr == ""
+                || hora == "") {
                 alert("Todos campos devem ser preenchidos!");
                 return false;
             }
@@ -18,14 +22,18 @@ Ex.: o campo “avatars” ao invés de utilizar um “input text” poderia uti
     </script>
 </head>
 
+<!-- Ex 03 – Transformar os campos “elementos“ da página criada no exercício 01, em  tipos de campos apropriados para o domínio de informação neles contidos.  
+     Ex.: o campo “avatars” ao invés de utilizar um “input text” poderia utilizar um  “select” visto que ele pode conter uma lista multivalorada de itens para seleção, o  famoso “combobox”. -->
+
 <body>
     <form name="Form" onsubmit="return validaForm()">
-        <!-- Colocar action="/página-aqui.linguagem" -->
-        Nome:
-        <input type="text" id="nome" value=""><br><br>
+        <!-- TODO :: Colocar action="/página-aqui.linguagem" -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="fNome" name="fNome"><br><br>
 
-        Pontos:
-        <select id="nota">
+        <label for="pontos">Pontos:</label>
+        <select id="fPontos">
+            <option value="1">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -33,8 +41,9 @@ Ex.: o campo “avatars” ao invés de utilizar um “input text” poderia uti
             <option value="5">5</option>
         </select> <br> <br>
 
-        Nota:
-        <select id="nota">
+        <label for="nota">Nota:</label>
+        <select id="fNota">
+            <option value="1">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -42,26 +51,28 @@ Ex.: o campo “avatars” ao invés de utilizar um “input text” poderia uti
             <option value="5">5</option>
         </select> <br> <br>
 
-        Universidade:
-        <select id="univ">
+        <label for="universidade">Universidade:</label>
+        <select id="fUniversidade">
             <option value="UNIP">UNIP</option>
             <option value="UNISO">UNISO</option>
             <option value="UNIPAR">UNIPAR</option>
         </select> <br> <br>
 
-        Empresas:
-        <input type="text" id="empresas" value="" /> <br> <br>
+        <label for="empresas">Empresas:</label>
+        <input type="text" id="fEmpresas" name="fEmpresas"><br><br>
 
-        Avatars:
+        <label for="avatars">Avatars:</label>
         <select>
+            <option value="NaoInformado">Prefiro não informar</option>
             <option value="Masculino">Masculino</option>
             <option value="Feminino">Feminino</option>
-            <option value="Não binário">Nao binario</option>
+            <option value="Outros">Outros</option>
         </select> <br> <br>
 
-        Horarios:
-        <input type="time" id="horas" value="" /> <br> <br>
-        <input type="submit" value="Submit">
+        <label for="horarios">Horarios:</label>
+        <input type="text" id="fHorarios" name="fHorarios"><br><br>
+
+        <input type="submit" value="Enviar">
     </form>
 </body>
 
