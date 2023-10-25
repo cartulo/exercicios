@@ -25,6 +25,7 @@
 <details open>
     <summary>Table of Contents</summary>
     <ol>
+        <li><a href="https://github.com/cartulo/exercicios#disclaimer">Disclaimer</a></li>
         <li><a href="https://github.com/cartulo/exercicios#about-this-project">About this project</a></li>
         <li><a href="https://github.com/cartulo/exercicios#roadmap">Roadmap</a></li>
             <ul>
@@ -37,6 +38,12 @@
         <li><a href="https://github.com/cartulo/exercicios#acknowledgements">Acknowledgements</a></li>
     </ol>
 </details>
+
+<!-- Disclaimer -->
+# Disclaimer
+> **⚠️ Warning:** This project is obsolete and has therefore been archived. The exercises will be fed into the GEN repository, at this link: https://github.com/geracao/treinamento
+> 
+> This project brought me many opportunities for growth, where I learned, created connections, received support from acquaintances, among others. Thanks everyone, see you soon
 
 <!-- Sobre este projeto -->
 <div>

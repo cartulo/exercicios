@@ -25,6 +25,7 @@
 <details open>
     <summary>Índice</summary>
     <ol>
+        <li><a href="https://github.com/cartulo/exercicios#disclaimer">Disclaimer</a></li>
         <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#sobre-este-projeto">Sobre este projeto</a></li>
         <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#roteiro">Roteiro</a></li>
             <ul>
@@ -37,6 +38,12 @@
         <li><a href="https://github.com/Cartulo/Exercicios/blob/main/README-pt.md#agradecimentos">Agradecimentos</a></li>
     </ol>
 </details>
+
+<!-- Disclaimer -->
+# Disclaimer
+> **⚠️ Aviso:** Este projeto encontra-se obsoleto, por conta disso foi arquivado. Os exercícios passarão a serem alimentados no repositório da GEN, neste link: https://github.com/geracao/treinamento
+> 
+> Este projeto me trouxe muitas oportunidades de crescimento, onde recebi aprendizado, criei conexões, recebi apoio de conhecidos, entre outros mais. Obrigado a todos, vejo vocês em breve
 
 <!-- Sobre este projeto -->
 <div>
